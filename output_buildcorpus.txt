@@ -1,0 +1,616 @@
+ [nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package punkt_tab to /root/nltk_data...
+[nltk_data]   Package punkt_tab is already up-to-date!
+
+=========== SENTENCE LEVEL TOKENS (PER WEBSITE) ===========
+
+
+--- Website 1 ---
+
+Sample tokenized sentences:
+['academic', 'regulations', 'office', 'of', 'academics', 'affairs', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['academic', 'regulations', 'old', 'regulation', 'no']
+['regulations', 'governing', 'programs', 'offered', 'by', 'the', 'institute', 'for', 'students', 'regulations', 'for', 'students', 'enrolled', 'from', 'july', '2019', 'onwards', 'download', 'file', '536', 'kb', 'amendment', 'revised', 'norms', 'for', 'continuation', 'of', 'program', 'assistantship', 'and', 'graduation', 'requirements', 'for', 'mtech']
+['students', 'registered', 'from', '2019', 'onwards', 'download', 'file', '536', 'kb', 'regulations', 'for', 'students', 'enrolled', 'from', 'july', '2020', 'onwards', 'download', 'file', '536', 'kb', 'amendment', 'revised', 'norms', 'for', 'continuation', 'of', 'program', 'assistantship', 'and', 'graduation', 'requirements', 'for', 'mtech']
+['students', 'registered', 'from', '2019', 'onwards', 'download', 'file', '280', 'kb', 'regulations', 'for', 'students', 'enrolled', 'from', 'july', '2021', 'onwards', 'download', 'file', '536', 'kb', 'amendment', 'revised', 'norms', 'for', 'continuation', 'of', 'program', 'assistantship', 'and', 'graduation', 'requirements', 'for', 'mtech']
+
+--- Website 2 ---
+
+Sample tokenized sentences:
+['programs', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'bachelor', 'of', 'technology', 'bs', 'program', 'master', 'of', 'technology', 'master', 'of', 'science', 'doctor', 'of', 'philosophy', 'integrated', 'teacher', 'education', 'programme', 'itep', 'executive', 'programs', 'mba', 'masters', 'of', 'design', 'summer', 'undergraduate', 'research', 'at', 'jodhpur', 'suraj', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 3 ---
+
+Sample tokenized sentences:
+['office', 'of', 'academics', 'affairs', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'the', 'office', 'of', 'academics', 'academics', 'facilitates', 'admissions', 'prospectus', 'preparation', 'printing', 'sale', 'of', 'application', 'forms', 'issue', 'of', 'admit', 'cards', 'for', 'admission', 'test', 'setting', 'of', 'test', 'papers', 'conduct', 'of', 'admission', 'test', 'evaluation', 'of', 'answer', 'scripts', 'announcement', 'of', 'results', 'admission', 'interviews', 'counseling', 'and', 'issue', 'of', 'admission', 'letters']
+['programs', 'course', 'registration', 'semester', 'schedule', 'scheduling', 'of', 'mid', 'end-semester', 'examinations', 'evaluation', 'and', 're-evaluation', 'of', 'exams', 'grade', 'records', 'grade', 'cards', 'transcripts', 'academic', 'discipline', 'academic', 'integrity', 'campus', 'mentor', 'program', 's-sm-fm', 'interaction', 'monitoring', 'teaching', 'and', 'faculty', 'member', 'workload', 'and', 'student', 'exchange', 'inter-areas', 'of', 'study', 'transfer', 'of', 'students', 'convocation', 'new', 'programs']
+['announcement', 'reporting', 'of', 'new', 'pg', 'students', '23-25', 'july', '2025']
+['reporting', 'of', 'new', 'ug', 'students', '28-29', 'july', '2025']
+['commencement', 'of', 'classes', '31', 'july', '2025']
+
+--- Website 4 ---
+
+Sample tokenized sentences:
+['recruitments', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'recruitments', 'faculty', 'members', 'post', 'doctoral', 'fellows', 'non-teaching', 'staff', 'members', 'project', 'staff', 'member', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '04', '38', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 5 ---
+
+Sample tokenized sentences:
+['faculty', 'members', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'faculty', 'members', 'the', 'institute', 'has', 'appointed', 'faculty', 'members', 'with', 'background', 'in', 'different', 'disciplines']
+['they', 'are', 'organised', 'through', 'the', 'following', 'academic', 'departments', 'schools', 'idrps', 'and', 'centers', 'departments', 'bioscience', 'bioengineering', 'chemistry', 'engineering', 'chemical', 'engineering', 'civil', 'and', 'infrastructure', 'engineering', 'computer', 'science', 'engineering', 'electrical', 'engineering', 'mathematics', 'engineering', 'mechanical', 'engineering', 'metallurgical', 'and', 'materials', 'engineering', 'physics', 'engineering', 'schools', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'saide', 'school', 'of', 'design', 'sod', 'school', 'of', 'liberal', 'arts', 'sola', 'school', 'of', 'management', 'entrepreneurship', 'sme', 'centres', 'center', 'for', 'education', 'technology', 'for', 'education', 'cete', 'center', 'for', 'technology', 'foresight', 'and', 'policys', 'ctfp', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'cetsd', 'idrps', 'idrcs', 'centre', 'for', 'aiot', 'and', 'application', 'space', 'technology', 'digital', 'humanities', 'robotics', 'mobility', 'systems', 'quantum', 'information', 'and', 'computation', 'iitj-aiimsj', 'medical', 'technologies', 'center', 'centre', 'for', 'digital', 'health', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '04', '38', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 6 ---
+
+Sample tokenized sentences:
+['departments', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'bioscience', 'bioengineering', 'chemistry', 'chemical', 'engineering', 'civil', 'and', 'infrastructure', 'engineering', 'computer', 'science', 'engineering', 'electrical', 'engineering', 'mathematics', 'mechanical', 'engineering', 'materials', 'engineering', 'physics', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 7 ---
+
+Sample tokenized sentences:
+['all', 'research', 'highlights', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'all', 'research', 'highlights', 'sr']
+['suraj', 'srivastava', 'assistant', 'professor', 'in', 'the', 'department', 'of', 'electrical', 'engineering', 'became', 'fellow', 'of', 'the', 'institution', 'of', 'electronics', 'telecommunication', 'engineers', 'iete', 'fiete', 'imaging', 'atomic-scale', 'magnetism', 'with', 'energy-filtered', 'differential', 'phase', 'contrast', 'method', 'structure', 'and', 'exfoliation', 'mechanism', 'of', 'two-dimensional', 'boron', 'nanosheets', '2d', 'materials', 'for', 'potable', 'water', 'application', 'basic', 'nanoarchitectonics', 'and', 'recent', 'progresses', 'research', 'paper', 'published', 'by', 'dr']
+['sushmita', 'jha', 'in', 'scientific', 'reports', 'language', 'independent', 'speech', 'generation', 'system', 'novel', 'multipath', 'mitigation', 'technique', 'for', 'gnss', 'signals', 'in', 'urban', 'scenarios', 'rajasthani', 'clay', 'catalytic', 'converters', 'for', 'automobiles', 'optical', 'field', 'design', 'for', 'solar', 'thermal', 'applications', 'archive', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 8 ---
+
+Sample tokenized sentences:
+['dr', 'palash', 'das', 'assistant', 'professor', 'department', 'of', 'computer', 'science', 'iit', 'jodhpur', 'rajasthan', 'india']
+['am', 'looking', 'for', 'motivated', 'students', 'to', 'join', 'at', 'various', 'levels', 'like', 'masters', 'phd']
+['dr', 'palash', 'das', 'has', 'received', 'his', 'btech']
+['degree', 'in', 'cse', 'from', 'the', 'west', 'bengal', 'university', 'of', 'technology', 'and', 'an']
+['degree', 'in', 'cse', 'from', 'the', 'indian', 'institute', 'of', 'engineering', 'science', 'and', 'technology', 'shibpur']
+
+--- Website 9 ---
+
+Sample tokenized sentences:
+['anand', 'mishra', 'anand', 'mishra', 'phd', 'cse-210', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'jodhpur', '342030', 'rj', 'india', 'currently', 'serve', 'as', 'an', 'assistant', 'professor', 'at', 'the', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'at', 'the', 'indian', 'institute', 'of', 'technology', 'jodhpur']
+['prior', 'to', 'this', 'role', 'had', 'the', 'opportunity', 'to', 'work', 'as', 'postdoctoral', 'researcher', 'under', 'the', 'mentorship', 'of', 'dr', 'partha', 'pratim', 'talukdar', 'at', 'the', 'indian', 'institute', 'of', 'science', 'focusing', 'on', 'knowledge-aware', 'computer', 'vision', 'for', 'nearly', 'two', 'years']
+['for', 'my', 'doctoral', 'studies', 'conducted', 'research', 'on', 'the', 'interpretation', 'of', 'text', 'within', 'scene', 'images', 'at', 'iiit', 'hyderabad', 'where', 'had', 'the', 'privilege', 'of', 'being', 'supervised', 'by', 'prof', 'jawahar', 'and', 'dr', 'karteek', 'alahari']
+['my', 'current', 'research', 'interest', 'lies', 'in', 'the', 'intersection', 'of', 'vision', 'and', 'language']
+['specifically', 'am', 'deeply', 'engaged', 'in', 'exploring', 'the', 'field', 'of', 'developing', 'ai', 'agents', 'that', 'can', 'understand', 'human', 'language', 'and', 'perceive', 'and', 'comprehend', 'the', 'visual', 'world']
+
+--- Website 10 ---
+
+Sample tokenized sentences:
+['vimal', 'raj', 'sharma', 'about', 'am', 'an', 'assistant', 'professor', 'in', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'at', 'iit', 'jodhpur']
+['my', 'interests', 'lie', 'broadly', 'in', 'theoretical', 'computer', 'science', 'specifically', 'in', 'computaional', 'complexity', 'theory', 'and', 'graph', 'algorithms']
+['am', 'loooking', 'for', 'motivated', 'graduate', 'and', 'undergraduate', 'students']
+['if', 'your', 'interest', 'matches', 'with', 'mine', 'kindly', 'contact', 'me', 'through', 'mail']
+['you', 'can', 'reach', 'me', 'at', '307', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'iitj', 'vimalraj', 'at', 'iitj']
+
+--- Website 11 ---
+
+Sample tokenized sentences:
+['admissions', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'admissions', 'admissions', 'at', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', 'invites', 'applications', 'for', 'admission', 'to', 'various', 'programs', 'in', 'specific', 'disciplines', 'and', 'interdisciplinary', 'areas']
+['programs', 'curriculum', 'application', 'deadline', 'application', 'link', 'btech', 'minor', 'in', 'mathematical', 'computational', 'economics', 'na', 'btech', 'minor', 'in', 'science', 'of', 'intelligence', 'na', 'ms', 'by', 'research', 'in', 'computational', 'economics', '20-4-25', 'ms', 'by', 'research', 'in', 'intelligent', 'infrastructure', '20-4-25', 'ms', 'by', 'research', 'in', 'next', 'generation', 'ai', '20-4-25', 'ms', 'by', 'research', 'in', 'precision', 'health', 'and', 'integrative', 'medicine', '20-4-25', 'mtech', 'executive', 'in', 'ar', 'vr', '20-4-25', 'mtech', 'executive', 'in', 'data', 'engineering', '20-4-25', 'mtech', 'executive', 'in', 'data', 'and', 'computational', 'science', '20-4-25', 'mtech', 'regular', 'in', 'ar', 'vr', '20-4-25', 'pg', 'diploma', 'executive', 'in', 'data', 'engineering', '20-4-25', 'phd', 'in', 'artificial', 'intelligence', 'and', 'data', 'science', '20-4-25', 'phd', 'in', 'computational', 'and', 'mathematical', 'economics', '20-4-25', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '28', 'jan', '2026', '08', '18', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 12 ---
+
+Sample tokenized sentences:
+['indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'about', 'iit', 'jodhpur', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'was', 'established', 'in', '2008', 'to', 'foster', 'technology', 'education', 'and', 'research', 'in', 'india']
+['the', 'institute', 'is', 'committed', 'to', 'technological', 'thought', 'and', 'action', 'to', 'benefit', 'the', 'economic', 'development', 'of', 'india']
+['scholarship', 'in', 'teaching', 'and', 'learning', 'scholarship', 'in', 'research', 'and', 'creative', 'accomplishments', 'and', 'relevance', 'to', 'industry', 'are', 'three', 'driving', 'forces', 'for', 'us', 'at', 'iit', 'jodhpur']
+['iit', 'jodhpur', 'functions', 'from', 'its', 'sprawling', 'residential', 'permanent', 'campus', 'of', '852', 'acres', 'on', 'national', 'highway', '65', 'north-northwest', 'of', 'jodhpur', 'towards', 'nagaur']
+['this', 'campus', 'is', 'meticulously', 'planned', 'and', 'envisioned', 'to', 'stand', 'as', 'symbol', 'of', 'academics', 'simple', 'but', 'deep']
+
+--- Website 13 ---
+
+Sample tokenized sentences:
+['help', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'help', 'the', 'website', 'will', 'enable', 'people', 'with', 'visual', 'impairments', 'access', 'the', 'website', 'using', 'assistive', 'technologies', 'including', 'screen', 'readers']
+['the', 'information', 'of', 'the', 'website', 'is', 'accessible', 'with', 'different', 'screen', 'readers', 'such', 'as', 'jaws', 'nvda', 'safa', 'supernova', 'and', 'window-eyes']
+['following', 'table', 'lists', 'the', 'information', 'about', 'different', 'screen', 'readers', 'information', 'related', 'to', 'the', 'various', 'screen', 'readers', 'screen', 'reader', 'website', 'free', 'commercial', 'non', 'visual', 'desktop', 'access', 'nvda', 'http', 'www']
+['org', 'free', 'system', 'access', 'to', 'go', 'http', 'www']
+['com', 'free', 'hal', 'http', 'www']
+
+--- Website 14 ---
+
+Sample tokenized sentences:
+['search', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'search', 'here', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 15 ---
+
+Sample tokenized sentences:
+['sitemap', '147852369', 'redirecttologinpage', '963258741']
+['sitemap', 'this', 'is', 'an', 'alphabetical', 'list', 'of', 'pages']
+['jump', 'to', 'about', 'department', 'rishabh', 'centre', 'for', 'research', 'and', 'innovation', 'in', 'clean', 'energy', 'rcrice', 'about', 'department', 'summer', 'undergraduate', 'research', 'at', 'jodhpur', 'suraj', 'about', 'department', 'office', 'of', 'vocational', 'training', 'and', 'upskilling', 'vtu', 'about', 'department', 'technology', 'innovation', 'and', 'start-up', 'center', 'iitj-tisc', 'about', 'coes', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'about', 'dean', 'of', 'administration', 'department', 'office', 'of', 'administration', 'about', 'digital', 'infrastructure', 'automation', 'department', 'digital', 'infrastructure', 'automation', 'dia', 'about', 'director', 'department', 'office', 'of', 'director', 'about', 'facilities', 'department', 'chemistry', 'about', 'faqs', 'department', 'bachelor', 'of', 'technology', 'about', 'pi', 'department', 'unnat', 'bharat', 'abhiyan', 'uba', 'about', 'program', 'department', 'centre', 'of', 'excellence', 'on', 'arts', 'and', 'digital', 'immersion', 'about', 'recruitment', 'department', 'chemical', 'engineering', 'about', 'regional', 'coordinating', 'institutions', 'rcis', 'department', 'unnat', 'bharat', 'abhiyan', 'uba', 'about', 'research', 'department', 'bioscience', 'bioengineering', 'about', 'research', 'department', 'chemistry', 'about', 'research', 'department', 'mechanical', 'engineering', 'about', 'research', 'department', 'digital', 'humanities', 'about', 'research', 'department', 'centre', 'of', 'excellence', 'on', 'arts', 'and', 'digital', 'immersion', 'about', 'research', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'about', 'research', 'department', 'center', 'for', 'education', 'technology', 'cet', 'about', 'rutag', 'department', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'about', 'sme', 'department', 'school', 'of', 'management', 'entrepreneurship', 'about', 'sustainability', 'plan', 'department', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'about', 'us', 'department', 'center', 'for', 'technology', 'foresight', 'and', 'policy', 'about', 'us', 'department', 'office', 'of', 'research', 'development', 'about', 'us', 'department', 'office', 'of', 'stores', 'purchase', 'about', 'us', 'department', 'office', 'of', 'security', 'transports', 'about', 'us', 'department', 'office', 'of', 'estate', 'about', 'us', 'department', 'visitors', 'hostel', 'about', 'us', 'department', 'office', 'of', 'publications', 'about', 'us', 'life', 'sme', 'department', 'school', 'of', 'management', 'entrepreneurship', 'academic', 'research', 'facilities', 'department', 'bachelor', 'of', 'technology', 'academic', 'calendar', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'outreach', 'department', 'school', 'of', 'liberal', 'arts', 'academic', 'programs', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'regulations', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'users', 'department', 'central', 'research', 'facility', 'crf', 'academics', 'department', 'office', 'of', 'students', 'academics', 'department', 'rishabh', 'centre', 'for', 'research', 'and', 'innovation', 'in', 'clean', 'energy', 'rcrice', 'accessible', 'department', 'institute', 'repository', 'office', 'of', 'accounts', 'activities', 'department', 'office', 'of', 'resources', 'and', 'alumni', 'dora', 'acts', 'statutes', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'adjunct', 'faculty', 'members', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'administration', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'admission', 'links', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'admission', 'mdes', 'xr', 'design', 'department', 'school', 'of', 'design', 'admission', 'to', 'mtech']
+['degree', 'programmes', 'department', 'admission', 'to', 'postgraduate', 'programs', 'admission', 'to', 'two-year', 'des']
+['in', 'smart', 'product', 'design', 'ay', '2026-27', 'department', 'admission', 'to', 'postgraduate', 'programs', 'admission', 'to', 'two-year', 'des']
+
+--- Website 16 ---
+
+Sample tokenized sentences:
+['winter', 'school', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'the', 'winter', 'school', 'on', 'ai', 'and', 'tcs', '2024', 'the', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'and', 'tih', 'ihub', 'drishti', 'are', 'jointly', 'organizing', 'the', 'third', 'winter', 'school', 'on', 'artificial', 'intelligence', 'and', 'theoretical', 'computer', 'science']
+['the', 'school', 'is', 'being', 'organized', 'as', 'an', 'in-person', 'event']
+['this', 'year', 'the', 'school', 'will', 'be', 'focused', 'on', 'generative', 'ai', 'december', '9-10', '2024', 'computation', 'in', 'social', 'choice', 'and', 'economics', 'december', '11-13', '2024', 'students', 'who', 'successfully', 'complete', 'the', 'winter', 'school', 'and', 'obtain', 'participation', 'certificate', 'will', 'be', 'prioritized', 'for', 'summer', 'winter', 'internship', 'at', 'the', 'department', 'of', 'computer', 'science', 'and', 'engineering', 'iit', 'jodhpur', 'under', 'the', 'mentorship', 'of', 'dr']
+['pallavi', 'jain', 'or', 'dr']
+['pratik', 'mazumder', 'and', 'or', 'dr']
+
+--- Website 17 ---
+
+Sample tokenized sentences:
+['grad', 'cohort', 'workshop', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'the', 'acm-w', 'india', 'grad', 'cohort', 'workshop', '2022', 'since', '2004', 'the', 'cra-wp', 'has', 'been', 'organizing', 'the', 'grad', 'cohort', 'workshop', 'in', 'the', 'usa', 'for', 'women', 'in', 'computing', 'to', 'help', 'them', 'through', 'their', 'graduate', 'years', 'and', 'beyond']
+['starting', '2018', 'grad', 'cohort', 'workshops', 'for', 'indian', 'women', 'are', 'being', 'conducted', 'by', 'acm-w', 'india']
+['these', 'workshops', 'aim', 'to', 'reach', 'out', 'to', 'indian', 'women', 'graduate', 'students', 'in', 'the', 'field', 'of', 'computing', 'facilitating', 'interactions', 'between', 'eminent', 'female', 'researchers', 'in', 'the', 'field', 'from', 'academia', 'and', 'industry', 'and', 'current', 'students']
+['here', 'through', 'sharing', 'some', 'of', 'their', 'own', 'experiences', 'women', 'experts', 'guide', 'students', 'towards', 'productive', 'graduate', 'tenure']
+['some', 'questions', 'that', 'are', 'likely', 'to', 'be', 'discussed', 'are', 'how', 'to', 'choose', 'mentor', 'choice', 'of', 'research', 'areas', 'and', 'questions', 'challenges', 'and', 'perseverance', 'honing', 'one', 'skills', 'scientific', 'writing', 'and', 'presentation', 'work-life', 'balance', 'spirit', 'of', 'collaboration', 'applying', 'for', 'postdocs', 'jobs', 'career', 'options', 'and', 'much', 'more']
+
+--- Website 18 ---
+
+Sample tokenized sentences:
+['list', 'of', 'provisionally', 'selected', 'candidates', 'admission', 'to', 'postgraduate', 'programs', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'list', 'of', 'provisionally', 'selected', 'candidates', 'ay', '2025-26', 'semester-ii', 'december', '2025', 'programme', 'phd', 'mtech', 'mtech', 'phd', 'msc', 'msc', 'mtech', 'materials', 'engineering', '364', 'kb', 'civil', 'and', 'infrastructure', 'engineering', '148', 'kb', 'computer', 'science', 'engineering', '368', 'kb', 'bioscience', 'and', 'bioengineering', '285', 'kb', 'chemistry', '150', 'kb', 'school', 'of', 'management', 'and', 'entrepreneurship', 'sme', '188', 'kb', 'school', 'of', 'liberal', 'arts', 'sola', '137', 'kb', 'mathematics', '331', 'kb', 'electrical', 'engineering', '190', 'kb', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'cetsd', '399', 'kb', 'centre', 'for', 'education', 'technology', 'cet', '4007', 'kb', 'idrp-iot', '125', 'kb', 'idrp-rms', '137', 'kb', 'idrp-sst', '138', 'kb', 'idrp-qic', '138', 'kb', 'idrd-dh', '393', 'kb', 'chemical', 'engineering', '105', 'kb', 'physics']
+['mb', 'mechanical', 'engineering', '295', 'kb', 'pdf', 'download', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '05', '05', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 19 ---
+
+Sample tokenized sentences:
+['list', 'of', 'shortlisted', 'candidates', 'admission', 'to', 'postgraduate', 'programs', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'list', 'of', 'shortlisted', 'candidates', 'ay', '2025-26', 'semester-ii', 'december', '2025', 'programme', 'phd', 'mtech', 'mtech', 'phd', 'msc', 'msc', 'mtech', 'bioscience', 'bioengineering', '310', 'kb', 'chemistry', '236', 'kb', 'chemical', 'engineering', '111', 'kb', 'civil', 'and', 'infrastructure', 'engineering', '214', 'kb', 'computer', 'science', 'and', 'engineering', '384', 'kb', 'electrical', 'engineering', '359', 'kb', 'mathematics', '190', 'kb', 'mechanical', 'engineering', '132', 'kb', 'materials', 'engineering', '268', 'kb', 'school', 'of', 'management', 'and', 'entrepreneurship', 'sme', '199', 'kb', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'saide', '844', 'kb', 'center', 'for', 'technology', 'foresight', 'and', 'policy', 'ctep', '434', 'kb', 'centre', 'for', 'mathematical', 'and', 'computational', 'economics', 'cmce', '834', 'kb', 'center', 'for', 'education', 'technology', 'cet', 'for', 'sop', 'submission', '331', 'kb', 'center', 'for', 'education', 'technology', 'cet-based', 'on', 'sop', '536', 'kb', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'cetsd', '192', 'kb', 'digital', 'humanities', 'idrd-dh', '166', 'kb', 'aiot', 'and', 'applications', 'idrp-aiot', '174', 'kb', 'robotics', 'and', 'mobility', 'systems', 'idrp-rms', '195', 'kb', 'space', 'science', 'technology', 'idrp-sst', '220', 'kb', 'physics', '261', 'kb', 'idrp-qic', '221', 'kb', 'pdf', 'download', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '05', '05', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 20 ---
+
+Sample tokenized sentences:
+['rolling', 'advertisement', 'for', 'admission', 'to', 'interdisciplinary', 'and', 'phd']
+['programmes', 'admission', 'to', 'postgraduate', 'programs', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'rolling', 'advertisement', 'for', 'admission', 'to', 'interdisciplinary', 'and', 'phd']
+['programmes', 'closing', 'date', 'of', 'application', 'throughout', 'the', 'year', 'cut-off', 'date', 'for', 'application', '20', 'april', 'for', 'semester', '20', 'october', 'for', 'semester', 'ii', 'declaration', 'of', 'results', 'to', 'be', 'announced', 'by', 'the', 'respective', 'department', 'applicants', 'are', 'requested', 'to', 'use', 'the', 'following', 'link', 'to', 'fill', 'and', 'submit', 'the', 'application', 'form', 'online', 'indian', 'students', 'https', 'erponline']
+['in', 'admission', 'index', 'admiss', 'ch', '56', 'foreign', 'national', 'inra', 'students', 'https', 'erponline']
+['in', 'admission', 'index', 'admiss', 'ch', '68', 'advertisement', 'details', 'download', 'file', '213', 'kb', 'list', 'of', 'provisionally', 'shortlisted', 'selected', 'and', 'waitlisted', 'candidates', 'for', 'admission', 'in', 'pg', 'programmes', 'can', 'be', 'seen', 'on', 'the', 'webpages', 'of', 'respective', 'departments', 'idrps', 'schools', 'centres', 'in', 'case', 'of', 'any', 'query', 'the', 'applicants', 'may', 'contact', 'to', 'the', 'respective', 'departments', 'idrps', 'schools', 'centres', 'where', 'they', 'are', 'applying', 'to']
+
+--- Website 21 ---
+
+Sample tokenized sentences:
+['important', 'links', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'important', 'links']
+['ranganathan', 'learning', 'hub', 'erp', 'portal', 'external', 'applications', 'xapp', 'inclusivity', 'cell', 'international', 'relations', 'companies', 'oversight', 'corporate', 'relation', 'transport', 'bus', 'schedule', 'techscape', 'publications', 'iitj', 'house', 'allotment', 'rules', 'for', 'employees', 'correspondence', 'grievance', 'redressal', 'committee', 'how', 'to', 'reach', 'iit', 'jodhpur', 'recruitment', 'rti', 'joint', 'consultative', 'committee', 'post', 'doctoral', 'fellows', 'commemorative', 'days', 'iit', 'jodhpur', 'vigilance', 'policy', 'scholarsphere', 'sc', 'and', 'st', 'helpdesk', 'tenders', 'chronological', 'development', 'friends', 'of', 'iit', 'jodhpur', 'anti', 'sexual', 'harassment', 'policy', 'contact', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '04', '38', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 22 ---
+
+Sample tokenized sentences:
+['correspondence', '147852369', 'redirecttologinpage', '963258741', 'correspondence']
+['date', 'subject', 'department', 'pdf', 'iitj', 'dir', '2024-25', '116', '26-feb-2025', 'appointment', 'of', 'student', 'ombudsperson', 'at', 'iit', 'jodhpur', 'office', 'of', 'director', 'file', 'english', '77', 'kb', 'iitj', 'reg', '2024-25', '112', '14-aug-2024', 'action', 'committee', 'on', 'viksit', 'bharat', '2047', 'office', 'of', 'registrar', 'file', 'english', '85', 'kb', 'iitj', 'reg', '2024-25', '79', '29-jul-2024', 'adoption', 'of', 'the', 'rules', 'pertaining', 'to', 'scheme', 'for', 'compassionate', 'appointment', 'under', 'central', 'government', 'at', 'iit', 'jodhpur', 'reg']
+['office', 'of', 'registrar', 'file', 'english', '60', 'kb', 'iitj', 'dir', '2024-25', '09', '16-jul-2024', 'appointment', 'of', 'student', 'ombudsperson', 'at', 'iit', 'jodhpur', 'office', 'of', 'director', 'file', 'english', 'mb', 'archive', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '25', 'mar', '2026', '07', '20', 'pm', 'arrow', 'downward']
+
+--- Website 23 ---
+
+Sample tokenized sentences:
+['rti', '147852369', 'redirecttologinpage', '963258741', 'rti', 'rti', 'welcome', 'rti', 'cell', 'procedure', 'for', 'rti', 'disclosure', 'under', 'section', 'of', 'the', 'rti', 'act', '2005', 'last', 'updated', 'on', '12', 'mar', '2025', 'about', 'right', 'to', 'information', 'act', 'name', 'title', 'of', 'the', 'act', 'right', 'to', 'information', 'act', '2005', 'rti', 'act', 'pdf', 'guidelines', 'rti', 'guidelines', 'definition', 'right', 'to', 'information', 'means', 'the', 'right', 'to', 'inspection', 'of', 'work', 'documents', 'records', 'taking', 'notes', 'extracts', 'or', 'certified', 'copies', 'of', 'documents', 'or', 'records', 'taking', 'certified', 'samples', 'of', 'material', 'obtaining', 'information', 'in', 'the', 'form', 'of', 'diskettes', 'floppies', 'tapes', 'video', 'cassettes', 'or', 'in', 'any', 'other', 'electronic', 'mode', 'or', 'through', 'printouts', 'where', 'such', 'information', 'is', 'stored', 'in', 'computer', 'or', 'other', 'device', 'subject', 'to', 'relevant', 'provisions']
+['objective', 'purpose', 'of', 'the', 'act', 'to', 'provide', 'available', 'information', 'of', 'the', 'institute', 'as', 'enshrined', 'in', 'the', 'rti', 'act', 'to', 'indian', 'citizens', 'on', 'payment', 'of', 'prescribed', 'fees']
+['users', 'citizens', 'of', 'india', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 24 ---
+
+Sample tokenized sentences:
+['tenders', 'details', 'office', 'of', 'stores', 'purchase', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'tenders', 'details', 'news', 'announcement', 'tender', 'details', 'tender', 'data', 'on', 'old', 'website', 'tender', 'draft', 'english', 'hindi', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '18', 'mar', '2026', '05', '39', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 25 ---
+
+Sample tokenized sentences:
+['techscape', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'about', 'techscape', 'techscape', 'the', 'science', 'technology', 'and', 'education', 'journal', 'of', 'iit', 'jodhpur', 'is', 'periodical', 'publication', 'of', 'iit', 'jodhpur', 'in', 'english', 'language']
+['the', 'objective', 'of', 'the', 'journal', 'is', 'to', 'facilitate', 'the', 'dissemination', 'of', 'our', 'work', 'to', 'the', 'larger', 'public']
+['the', 'journal', 'is', 'released', 'thrice', 'in', 'an', 'academic', 'year', 'with', 'one', 'issue', 'to', 'commemorate', 'institute', 'foundation', 'day', 'and', 'one', 'issue', 'to', 'commemorate', 'the', 'annual', 'convocation', 'whenever', 'these', 'events', 'may', 'be', 'held']
+['the', 'digital', 'edition', 'of', 'this', 'journal', 'is', 'hosted', 'at', 'https', 'iitj']
+['view', 'current', 'issue', 'aim', 'and', 'scope', 'the', 'aim', 'of', 'techscape', 'is', 'to', 'chronicle', 'the', 'ongoing', 'research', 'activities', 'at', 'the', 'institute', 'the', 'campus', 'news', 'and', 'highlights', 'opinion', 'pieces', 'on', 'recent', 'developments', 'in', 'science', 'technology', 'and', 'education', 'besides', 'featuring', 'invited', 'contributions', 'from', 'luminaries', 'and', 'alumni', 'in', 'various', 'fields']
+
+--- Website 26 ---
+
+Sample tokenized sentences:
+['contact', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'contact', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'nh', '62', 'nagaur', 'road', 'karwar', '342030', 'jodhpur', 'district', 'rajasthan', 'india', 'email', 'pro', 'iitj']
+['in', 'phone', '0291', '280', '1195', 'queries', 'related', 'to', 'administrative', 'contact', 'institute', 'working', 'days', 'five', 'days', 'week', 'monday', 'to', 'friday', 'working', 'hours', '00', 'am', 'to', '30', 'pm']
+['institute', 'is', 'closed', 'on', 'saturdays', 'sundays', 'and', 'notified', 'holidays', 'of', 'the', 'institute']
+['important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 27 ---
+
+Sample tokenized sentences:
+['how', 'to', 'reach', 'iit', 'jodhpur', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['how', 'to', 'reach', 'iit', 'jodhpur', 'where', 'is', 'iit', 'jodhpur']
+['iit', 'jodhpur', 'is', 'located', 'on', 'the', 'outskirts', 'of', 'the', 'city', 'of', 'jodhpur', 'and', 'is', 'well', 'connected', 'to', 'other', 'parts', 'of', 'country', 'by', 'road', 'rail', 'and', 'air']
+['the', 'institute', 'is', 'located', 'on', 'national', 'highway', '65', 'at', 'karwad', 'village', 'about', '24', 'km', 'from', 'the', 'railway', 'station', 'and', '25', 'km', 'from', 'the', 'airport', 'it', 'takes', 'approximately', '45', 'mins', 'and', '40', 'mins', 'to', 'drive', 'from', 'airport', 'and', 'railway', 'station', 'to', 'the', 'institute', 'respectively']
+['how', 'to', 'reach', 'the', 'campus']
+
+--- Website 28 ---
+
+Sample tokenized sentences:
+['institute', 'repository', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'the', 'institute', 'repository', 'minutes', 'of', 'senate', 'meeting', 'minutes', 'of', 'bog', 'meeting', 'annual', 'report', 'newsletter', 'brochure', 'accessibility', 'ariia', '2019-20', 'nirf', 'vanguard', 'lectures', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '07', 'jan', '2026', '12', '53', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 29 ---
+
+Sample tokenized sentences:
+['donate', 'office', 'of', 'corporate', 'relations', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'donate', 'donation', 'form', 'submit', 'your', 'details', 'in', 'the', 'donation', 'form']
+['please', 'scroll', 'down', 'for', 'payment', 'methods', 'complete', 'your', 'donation', 'by', 'clicking', 'the', 'button', 'below']
+['all', 'fields', 'marked', 'with', 'are', 'mandatory']
+['open', 'donation', 'form', 'required', 'information', 'please', 'have', 'the', 'following', 'information', 'ready', 'personal', 'details', 'name', 'email', 'phone', 'donation', 'amount', 'purpose', 'pan', 'number', 'for', 'tax', 'receipt', 'address', 'for', 'communication', 'online', 'donation', 'via', 'qr', 'thank', 'you', 'for', 'considering', 'to', 'contribute', 'to', 'iit', 'jodhpur']
+['you', 'can', 'contribute', 'to', 'the', 'institute', 'by', 'various', 'modes', 'described', 'below']
+
+--- Website 30 ---
+
+Sample tokenized sentences:
+['web', 'policy', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['web', 'policy', 'quality', 'guidelines', 'in', 'accordance', 'with', 'gigw', 'association', 'to', 'government', 'is', 'demonstrated', 'by', 'the', 'use', 'of', 'emblem', 'logo', 'in', 'proper', 'ratio', 'and', 'colour', 'prominently', 'displayed', 'on', 'the', 'page', 'of', 'the', 'website', 'or', 'screen', 'of', 'the', 'app']
+['ownership', 'information', 'is', 'displayed', 'on', 'the', 'page', 'screen', 'and', 'on', 'all', 'important', 'entry', 'pages', 'screens', 'of', 'the', 'website', 'app', 'and', 'each', 'subsequent', 'page', 'screen', 'is', 'standalone', 'entity', 'in', 'terms', 'of', 'ownership', 'navigation', 'and', 'context', 'of', 'content']
+['source', 'of', 'all', 'documents', 'not', 'owned', 'by', 'the', 'dept']
+['that', 'have', 'been', 'reproduced', 'in', 'part', 'or', 'full', 'is', 'mentioned']
+
+--- Website 31 ---
+
+Sample tokenized sentences:
+['web', 'information', 'manager', 'wim', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'web', 'information', 'manager', 'wim', 'contact', 'information', 'name', 'ram', 'singh', 'ratnu', 'designation', 'junior', 'technical', 'superintendent', 'department', 'digital', 'infrastructure', 'and', 'automation', 'address', 'indian', 'institute', 'of', 'technology', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'phone', '0291', '280', '1172', 'email', 'webmaster', 'at', 'iitj', 'dot', 'ac', 'dot', 'in', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '19', 'mar', '2026', '04', '38', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 32 ---
+
+Sample tokenized sentences:
+['feedback', '147852369', 'redirecttologinpage', '963258741', 'feedback', 'name', 'email', 'subject', 'message', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 33 ---
+
+Sample tokenized sentences:
+['nirf', 'institute', 'repository', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'nirf', 'year', 'title', '2025', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2025', 'engineering', '108', 'kb', 'management', '23', 'kb', 'overall', '114', 'kb', 'innovation', '114', 'kb', 'sustainable', 'development', 'goals', 'sdg', '110', 'kb', '2024', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2024', 'overall', '95', 'kb', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2024', 'engineering', '89', 'kb', '2023', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2023', 'engineering', '82']
+['kb', 'overall', '89', 'kb', '18', 'february', '2022', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2022', '77', 'kb', '19', 'february', '2021', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2021', '69', 'kb', '31', 'december', '2019', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2020', '85', 'kb', 'january', '2019', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2019', '59', 'kb', 'december', '2017', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2018', '89', 'kb', '28', 'november', '2016', 'iit', 'jodhpur', 'nirf', 'data', 'for', 'the', 'year', '2017', '315', 'kb', 'file', '2017', 'consultancy', 'project', 'detail', '125', 'kb', 'entrepreneurship', '242', 'kb', 'executive', 'development', 'program', '220', 'kb', 'higher', 'studies', 'nirf', 'final', '293', 'kb', 'national', 'ranking', 'important', '327', 'kb', 'sponsored', 'research', 'detail', '287', 'kb', 'top', 'university', 'details', '3d', '242', 'kb', 'top', 'university', 'details', '5d', '196', 'kb', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '07', 'jan', '2026', '12', '53', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 34 ---
+
+Sample tokenized sentences:
+['anti', 'sexual', 'harassment', 'policy', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'anti', 'sexual', 'harassment', 'policy', 'iit', 'jodhpur', 'constituted', 'internal', 'complaints', 'committee', 'vide', 'notification', 'no']
+['iitj', 'admin', '2019-20', '153', 'dated', '23', 'november', '2019', 'in', 'accordance', 'with', 'the', 'provisions', 'contained', 'in', 'sexual', 'harassment', 'of', 'women', 'at', 'workplace', 'prevention', 'prohibition', 'and', 'redressal', 'act', '2013']
+['the', 'terms', 'of', 'reference', 'of', 'the', 'committee', 'shall', 'be', 'as', 'follows', 'to', 'organise', 'regular', 'awareness', 'programs', 'in', 'the', 'institute', 'regarding', 'sexual', 'harassment', 'for', 'various', 'stakeholders', 'of', 'the', 'institute', 'particularly', 'women', 'to', 'recommend', 'to', 'the', 'institute', 'from', 'time', 'to', 'time', 'measures', 'that', 'should', 'be', 'taken', 'to', 'deter', 'sexual', 'harassment', 'and', 'acts', 'that', 'affect', 'dignity', 'of', 'all', 'persons', 'in', 'the', 'campus', 'to', 'deal', 'with', 'such', 'other', 'matters', 'and', 'issues', 'as', 'may', 'be', 'considered', 'connected', 'with', 'sexual', 'harassment', 'to', 'anyone', 'affecting', 'their', 'dignity', 'and', 'to', 'advice', 'the', 'institute', 'from', 'time', 'to', 'time', 'in', 'matters', 'of', 'sexual', 'harassment', 'and', 'also', 'for', 'upholding', 'the', 'dignity', 'of', 'everyone', 'attached', 'with', 'the', 'institute']
+['important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 35 ---
+
+Sample tokenized sentences:
+['indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'about', 'iit', 'jodhpur', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'was', 'established', 'in', '2008', 'to', 'foster', 'technology', 'education', 'and', 'research', 'in', 'india']
+['the', 'institute', 'is', 'committed', 'to', 'technological', 'thought', 'and', 'action', 'to', 'benefit', 'the', 'economic', 'development', 'of', 'india']
+['scholarship', 'in', 'teaching', 'and', 'learning', 'scholarship', 'in', 'research', 'and', 'creative', 'accomplishments', 'and', 'relevance', 'to', 'industry', 'are', 'three', 'driving', 'forces', 'for', 'us', 'at', 'iit', 'jodhpur']
+['iit', 'jodhpur', 'functions', 'from', 'its', 'sprawling', 'residential', 'permanent', 'campus', 'of', '852', 'acres', 'on', 'national', 'highway', '65', 'north-northwest', 'of', 'jodhpur', 'towards', 'nagaur']
+['this', 'campus', 'is', 'meticulously', 'planned', 'and', 'envisioned', 'to', 'stand', 'as', 'symbol', 'of', 'academics', 'simple', 'but', 'deep']
+
+--- Website 36 ---
+
+Sample tokenized sentences:
+['digital', 'infrastructure', 'automation', 'dia', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'the', 'digital', 'infrastructure', 'automation', 'computer', 'center', 'the', 'digital', 'infrastructure', 'automation', 'dia', 'commonly', 'known', 'as', 'computer', 'center', 'of', 'the', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'stands', 'as', 'testament', 'to', 'the', 'institution', 'commitment', 'to', 'cutting-edge', 'research', 'innovation', 'and', 'technological', 'development']
+['as', 'pivotal', 'hub', 'for', 'computing', 'and', 'information', 'technology', 'the', 'computer', 'center', 'has', 'played', 'crucial', 'role', 'in', 'shaping', 'the', 'academic', 'landscape', 'and', 'the', 'advancement', 'of', 'the', 'institute']
+['since', 'its', 'inception', 'the', 'computer', 'center', 'has', 'undergone', 'remarkable', 'development', 'and', 'growth', 'aligning', 'itself', 'with', 'advancements', 'in', 'the', 'field', 'of', 'computing']
+['equipped', 'with', 'state-of-the-art', 'infrastructure', 'and', 'team', 'of', 'highly', 'skilled', 'professionals', 'the', 'center', 'has', 'fostered', 'an', 'environment', 'conducive', 'to', 'research', 'and', 'learning']
+['quick', 'access', 'erp', 'portal', 'private', 'cloud', 'moodle', 'lab', 'booking', 'system', 'dia', 'verticals', 'computer', 'center', 'network', 'cybersecurity', 'erp', 'automation', 'objective', 'the', 'center', 'primary', 'objective', 'is', 'to', 'provide', 'computational', 'resources', 'technical', 'support', 'and', 'expertise', 'to', 'students', 'faculty', 'members', 'and', 'researchers', 'across', 'various', 'disciplines']
+
+--- Website 37 ---
+
+Sample tokenized sentences:
+['indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'about', 'iit', 'jodhpur', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'was', 'established', 'in', '2008', 'to', 'foster', 'technology', 'education', 'and', 'research', 'in', 'india']
+['the', 'institute', 'is', 'committed', 'to', 'technological', 'thought', 'and', 'action', 'to', 'benefit', 'the', 'economic', 'development', 'of', 'india']
+['scholarship', 'in', 'teaching', 'and', 'learning', 'scholarship', 'in', 'research', 'and', 'creative', 'accomplishments', 'and', 'relevance', 'to', 'industry', 'are', 'three', 'driving', 'forces', 'for', 'us', 'at', 'iit', 'jodhpur']
+['iit', 'jodhpur', 'functions', 'from', 'its', 'sprawling', 'residential', 'permanent', 'campus', 'of', '852', 'acres', 'on', 'national', 'highway', '65', 'north-northwest', 'of', 'jodhpur', 'towards', 'nagaur']
+['this', 'campus', 'is', 'meticulously', 'planned', 'and', 'envisioned', 'to', 'stand', 'as', 'symbol', 'of', 'academics', 'simple', 'but', 'deep']
+
+--- Website 38 ---
+
+Sample tokenized sentences:
+['help', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'help', 'the', 'website', 'will', 'enable', 'people', 'with', 'visual', 'impairments', 'access', 'the', 'website', 'using', 'assistive', 'technologies', 'including', 'screen', 'readers']
+['the', 'information', 'of', 'the', 'website', 'is', 'accessible', 'with', 'different', 'screen', 'readers', 'such', 'as', 'jaws', 'nvda', 'safa', 'supernova', 'and', 'window-eyes']
+['following', 'table', 'lists', 'the', 'information', 'about', 'different', 'screen', 'readers', 'information', 'related', 'to', 'the', 'various', 'screen', 'readers', 'screen', 'reader', 'website', 'free', 'commercial', 'non', 'visual', 'desktop', 'access', 'nvda', 'http', 'www']
+['org', 'free', 'system', 'access', 'to', 'go', 'http', 'www']
+['com', 'free', 'hal', 'http', 'www']
+
+--- Website 39 ---
+
+Sample tokenized sentences:
+['search', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'search', 'here', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 40 ---
+
+Sample tokenized sentences:
+['sitemap', '147852369', 'redirecttologinpage', '963258741']
+['sitemap', 'this', 'is', 'an', 'alphabetical', 'list', 'of', 'pages']
+['jump', 'to', 'about', 'department', 'rishabh', 'centre', 'for', 'research', 'and', 'innovation', 'in', 'clean', 'energy', 'rcrice', 'about', 'department', 'summer', 'undergraduate', 'research', 'at', 'jodhpur', 'suraj', 'about', 'department', 'office', 'of', 'vocational', 'training', 'and', 'upskilling', 'vtu', 'about', 'department', 'technology', 'innovation', 'and', 'start-up', 'center', 'iitj-tisc', 'about', 'coes', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'about', 'dean', 'of', 'administration', 'department', 'office', 'of', 'administration', 'about', 'digital', 'infrastructure', 'automation', 'department', 'digital', 'infrastructure', 'automation', 'dia', 'about', 'director', 'department', 'office', 'of', 'director', 'about', 'facilities', 'department', 'chemistry', 'about', 'faqs', 'department', 'bachelor', 'of', 'technology', 'about', 'pi', 'department', 'unnat', 'bharat', 'abhiyan', 'uba', 'about', 'program', 'department', 'centre', 'of', 'excellence', 'on', 'arts', 'and', 'digital', 'immersion', 'about', 'recruitment', 'department', 'chemical', 'engineering', 'about', 'regional', 'coordinating', 'institutions', 'rcis', 'department', 'unnat', 'bharat', 'abhiyan', 'uba', 'about', 'research', 'department', 'bioscience', 'bioengineering', 'about', 'research', 'department', 'chemistry', 'about', 'research', 'department', 'mechanical', 'engineering', 'about', 'research', 'department', 'digital', 'humanities', 'about', 'research', 'department', 'centre', 'of', 'excellence', 'on', 'arts', 'and', 'digital', 'immersion', 'about', 'research', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'about', 'research', 'department', 'center', 'for', 'education', 'technology', 'cet', 'about', 'rutag', 'department', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'about', 'sme', 'department', 'school', 'of', 'management', 'entrepreneurship', 'about', 'sustainability', 'plan', 'department', 'center', 'for', 'emerging', 'technologies', 'for', 'sustainable', 'development', 'about', 'us', 'department', 'center', 'for', 'technology', 'foresight', 'and', 'policy', 'about', 'us', 'department', 'office', 'of', 'research', 'development', 'about', 'us', 'department', 'office', 'of', 'stores', 'purchase', 'about', 'us', 'department', 'office', 'of', 'security', 'transports', 'about', 'us', 'department', 'office', 'of', 'estate', 'about', 'us', 'department', 'visitors', 'hostel', 'about', 'us', 'department', 'office', 'of', 'publications', 'about', 'us', 'life', 'sme', 'department', 'school', 'of', 'management', 'entrepreneurship', 'academic', 'research', 'facilities', 'department', 'bachelor', 'of', 'technology', 'academic', 'calendar', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'outreach', 'department', 'school', 'of', 'liberal', 'arts', 'academic', 'programs', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'regulations', 'department', 'office', 'of', 'academics', 'affairs', 'academic', 'users', 'department', 'central', 'research', 'facility', 'crf', 'academics', 'department', 'office', 'of', 'students', 'academics', 'department', 'rishabh', 'centre', 'for', 'research', 'and', 'innovation', 'in', 'clean', 'energy', 'rcrice', 'accessible', 'department', 'institute', 'repository', 'office', 'of', 'accounts', 'activities', 'department', 'office', 'of', 'resources', 'and', 'alumni', 'dora', 'acts', 'statutes', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'adjunct', 'faculty', 'members', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'administration', 'department', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'admission', 'links', 'department', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'admission', 'mdes', 'xr', 'design', 'department', 'school', 'of', 'design', 'admission', 'to', 'mtech']
+['degree', 'programmes', 'department', 'admission', 'to', 'postgraduate', 'programs', 'admission', 'to', 'two-year', 'des']
+['in', 'smart', 'product', 'design', 'ay', '2026-27', 'department', 'admission', 'to', 'postgraduate', 'programs', 'admission', 'to', 'two-year', 'des']
+
+--- Website 41 ---
+
+Sample tokenized sentences:
+['school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'saide', 'news', 'view', 'all', 'news']
+['vishal', 'rathi', 'received', 'best', 'paper', 'award', 'at', 'air2025', 'prime', 'minister', 'early', 'career', 'research', 'grant', 'pm', 'ecrg', 'from', 'the', 'anusandhan', 'national']
+['list', 'of', 'provisionally', 'selected', 'candidates', 'for', 'phd', 'admission', 'for', 'academic', 'year', '2024-25']
+['events', 'view', 'all', 'events', 'feb', '2026', 'hands-on', 'workshop', 'on', 'recent', 'trends', 'in', 'generative', 'ai', 'models', 'and', 'their', 'applications', 'nov', '25', '2024', 'incomplete', 'information', 'and', 'matching', 'of', 'likes', 'mechanism', 'design', 'approach', 'nov', '16', '2024', 'sun', 'pharma', 'science', 'foundation', 'national', 'symposium', 'on', 'artificial', 'intelligence', 'in']
+['key', 'functionaries', 'anil', 'kumar', 'tiwari', 'head', 'saide', 'professor', 'electrical', 'engineering', 'student', 'life', 'at', 'saide', 'student', 'life', 'at', 'saide', 'is', 'vibrant', 'and', 'enriching', 'offering', 'perfect', 'blend', 'of', 'academic', 'learning', 'and', 'extracurricular', 'activities']
+
+--- Website 42 ---
+
+Sample tokenized sentences:
+['mission', 'vision', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'mission', 'vision', 'vision', 'advancing', 'the', 'field', 'of', 'ai', 'and', 'data', 'sciences', 'for', 'good', 'of', 'humanity']
+['mission', 'to', 'be', 'at', 'the', 'fore-front', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'research', 'in', 'all', 'dimensions', 'theoretical', 'research', 'application', 'directed', 'research', 'and', 'locally', 'relevant', 'research', 'for', 'meeting', 'regional', 'needs']
+['to', 'play', 'leading', 'role', 'in', 'the', 'delivery', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'education', 'in', 'formal', 'and', 'informal', 'sectors', 'at', 'all', 'levels']
+['to', 'become', 'globally', 'coveted', 'destination', 'for', 'artificial', 'intelligence', 'and', 'data', 'science', 'technology', 'development', 'and', 'entrepreneurship']
+['important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+
+--- Website 43 ---
+
+Sample tokenized sentences:
+['ai', 'ds', 'ecosystem', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['ai', 'ds', 'ecosystem', 'initiating', 'industry-school-end', 'user', 'partnerships', 'research', 'partnerships', 'school', 'will', 'establish', 'partnerships', 'with', 'industries', 'including', 'msme', 'for', 'working', 'on', 'an', 'array', 'of', 'problems', 'involving', 'students', 'and', 'faculty']
+['in', 'effect', 'school', 'can', 'provide', 'ai', 'related', 'research', 'services', 'to', 'partner', 'industries', 'through', 'an', 'umbrella', 'mou', 'as', 'per', 'iitj', 'norms']
+['ai', 'and', 'data', 'analytics', 'as', 'service', 'framework', 'school', 'in', 'collaboration', 'with', 'appropriate', 'partners', 'can', 'develop', 'and', 'host', 'advanced', 'ai', 'and', 'data', 'analytics', 'services', 'on', 'cloud', 'for', 'industry', 'end', 'users', 'not', 'working', 'in', 'core', 'ai', 'or', 'ds', 'domain']
+['school', 'can', 'also', 'manage', 'data', 'factories', 'for', 'servicing', 'needs', 'of', 'industries', 'from', 'india', 'and', 'other', 'countries']
+
+--- Website 44 ---
+
+Sample tokenized sentences:
+['outreach', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'outreach', 'symposium', 'sun', 'pharma', 'science', 'foundation', 'national', 'symposium', 'on', 'artificial', 'intelligence', 'in', 'healthcare', 'ai', 'has', 'potential', 'to', 'be', 'transformative', 'for', 'healthcare', 'particularly', 'for', 'country', 'like', 'india', 'with', 'large', 'population', 'inadequate', 'number', 'of', 'specialists', 'and', 'people', 'living', 'far', 'from', 'even', 'primary', 'healthcare', 'facilities']
+['however', 'the', 'enticing', 'promise', 'and', 'potential', 'of', 'ai', 'in', 'radically', 'improving', 'diagnostics', 'precision', 'treatment', 'and', 'reduce', 'hospital', 'admin', 'load', 'has', 'not', 'delivered', 'its', 'promises', 'on', 'ground']
+['wide', 'gap', 'exists', 'between', 'expectations', 'of', 'the', 'practicing', 'doctors', 'and', 'what', 'ai', 'engineers', 'have', 'been', 'able', 'to', 'deliver']
+['for', 'ai', 'to', 'be', 'effective', 'the', 'ai', 'models', 'for', 'india', 'have', 'to', 'be', 'built', 'in', 'india', 'on', 'data', 'from', 'indian', 'patients']
+['catalyzing', 'dialogue', 'between', 'scientists', 'and', 'doctors', 'is', 'the', 'primary', 'objective', 'of', 'this', 'one-day', 'symposium']
+
+--- Website 45 ---
+
+Sample tokenized sentences:
+['administration', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'administration', 'school', 'faculty', 'board', 'chairperson', 'director', 'of', 'the', 'institute', 'head', 'of', 'school', 'prof']
+['anil', 'kumar', 'tiwari', 'convenor', 'of', 'school', 'dr']
+['shilpa', 'dang', 'members', 'all', 'core', 'joint', 'faculty', 'members', 'school', 'post', 'graduate', 'committee', 'convenor', 'for', 'scpgc', 'dr']
+['dipanjan', 'roy', 'members', 'for', 'scpgc', 'dr']
+['bikash', 'santra', 'dr']
+
+--- Website 46 ---
+
+Sample tokenized sentences:
+['campus', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'campus', 'location', 'previous', 'next', 'campus', 'of', 'iit', 'jodhpur', 'iit', 'jodhpur', 'has', 'shifted', 'to', 'its', 'sprawling', 'state-of-the-art', 'residential', 'permanent', 'campus', 'on', '852', 'acres', 'of', 'land', 'located', '24', 'km', 'away', 'from', 'the', 'center', 'of', 'the', 'city', 'of', 'jodhpur', 'on', 'national', 'highway', '62', 'towards', 'nagaur', 'n-ne', 'from', 'the', 'center', 'of', 'jodhpur']
+['the', 'permanent', 'campus', 'has', 'parcels', 'of', 'land']
+['the', 'institute', 'is', 'finalising', 'plans', 'for', 'adopting', 'one', 'of', 'for', 'harvesting', 'technologies']
+['this', 'new', 'campus', 'has', 'been', 'planned', 'meticulously', 'and', 'envisioned', 'to', 'stand', 'as', 'symbol', 'of', 'academics', 'simple', 'but', 'deep', 'the', 'foundation', 'stone', 'for', 'the', 'permanent', 'campus', 'was', 'laid', 'on', '16', 'april', '2013', 'by', 'the', 'hon']
+['union', 'minister', 'for', 'human', 'resources', 'development', 'government', 'of', 'india', 'dr']
+
+--- Website 47 ---
+
+Sample tokenized sentences:
+['faqs', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['faqs', 'admissions', 'faqs', 'academics', 'faqs', 'funding', 'faqs', 'phd', 'faqs', 'admissions', 'faqs', 'when', 'can', 'apply', 'for', 'particular', 'program']
+['applications', 'follow', 'the', 'academic', 'cycle', 'with', 'one', 'round', 'in', 'may-june', 'for', 'program', 'start', 'in', 'august', 'and', 'another', 'in', 'november-december', 'for', 'program', 'start', 'in', 'january']
+['please', 'see', 'the', 'admissions', 'page', 'under', 'join', 'us', 'for', 'more', 'details']
+['you', 'can', 'also', 'visit', 'advertisements', 'page', 'of', 'iit', 'jodhpur', 'https', 'iitj', 'ac', 'in', 'academics', 'misc', 'php', 'id', 'advertisements', 'what', 'are', 'the', 'eligibility', 'criteria', 'academic', 'credentials', 'and', 'minimal', 'requirements', 'for', 'candidates', 'applying', 'for', 'the', 'phd', 'at', 'school', 'of', 'ai', 'and', 'data', 'science']
+
+--- Website 48 ---
+
+Sample tokenized sentences:
+['phd', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'phd', 'why', 'phd', 'school', 'of', 'aide', 'iit', 'jodhpur', 'phd', 'students', 'at', 'the', 'aide', 'school', 'are', 'trained', 'in', 'theoretical', 'as', 'well', 'as', 'applied', 'research', 'that', 'will', 'be', 'visible', 'through', 'publications', 'in', 'the', 'top-ranking', 'international', 'journals', 'and', 'conferences', 'or', 'state-of-the-art', 'tangible', 'end-products']
+['the', 'students', 'can', 'choose', 'to', 'work', 'with', 'the', 'faculty', 'in', 'the', 'centers', 'of', 'excellence', 'or', 'choose', 'transdisciplinary', 'project', 'with', 'the', 'affiliated', 'faculty']
+['students', 'have', 'round-the-clock', 'access', 'to', 'high-end', 'research', 'and', 'computational', 'facilities']
+['our', 'graduating', 'doctoral', 'students', 'will', 'be', 'trained', 'in', 'critical', 'thinking', 'independent', 'research', 'development', 'operations', 'and', 'management', 'of', 'emerging', 'technological', 'challenges', 'and', 'will', 'be', 'prepared', 'to', 'fulfil', 'the', 'needs', 'of', 'both', 'industry', 'and', 'academia', 'or', 'to', 'venture', 'out', 'on', 'their', 'own']
+['broad', 'research', 'areas', 'in', 'saide', 'foundational', 'ai', 'ds', 'ai', 'ds', 'applications', 'brain', 'science', 'and', 'applications', 'mathematical', 'and', 'computational', 'economics', 'important', 'links', 'list', 'of', 'provisionally', 'candidates', 'shortlisted', 'for', 'phd']
+
+--- Website 49 ---
+
+Sample tokenized sentences:
+['ms', 'by', 'program', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'ms', 'by', 'program', 'ms', 'program', 'iit', 'jodhpur', 'invites', 'applications', 'for', 'admission', 'to', 'the']
+['by', 'research', 'program', 'offered', 'by', 'the', 'centre', 'of', 'excellence', 'on', 'brain', 'science', 'and', 'applications', 'cbsa', 'in', 'the', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur']
+['the', 'ms', 'by', 'research', 'program', 'at', 'present', 'is', 'designed', 'to', 'offer', 'degrees', 'in', 'the', 'following', 'areas', 'ms', 'by', 'research', 'in', 'next', 'generation', 'ai', 'hosted', 'by', 'center', 'for', 'brain', 'science', 'and', 'applications', 'co-ordinator', 'dr']
+['dipanjan', 'roy', 'ms', 'by', 'research', 'in', 'computational', 'economics', 'hosted', 'by', 'center', 'for', 'mathematical', 'and', 'computational', 'economics', 'saide', 'co-ordinator', 'dr']
+['abhinaba', 'lahiri', 'ms', 'by', 'research', 'in', 'intelligent', 'infrastructure', 'hosted', 'by', 'center', 'of', 'intelligent', 'infrastructure', 'co-ordinator', 'dr']
+
+--- Website 50 ---
+
+Sample tokenized sentences:
+['mtech', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'mtech', 'mtech', 'programs', 'the', 'master', 'of', 'technology', 'mtech', 'program', 'in', 'artificial', 'intelligence', 'and', 'data', 'science', 'at', 'the', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'aide', 'offers', 'an', 'advanced', 'curriculum', 'designed', 'to', 'prepare', 'students', 'for', 'leadership', 'roles', 'in', 'the', 'rapidly', 'evolving', 'fields', 'of', 'artificial', 'intelligence', 'ai', 'and', 'data', 'science', 'ds']
+['important', 'links', 'provisional', 'selection', 'of', 'mtech']
+['ar', 'vr', 'admissions', 'under', 'full', 'time', 'regular', 'without', 'fellowship', 'self', 'sponsored', 'full-time', 'sponsored', 'external', 'part-time', 'online', 'category', 'the', 'mtech', 'program', 'at', 'present', 'is', 'designed', 'to', 'offer', 'degrees', 'in', 'the', 'following', 'areas', 'mtech', 'regular', 'in', 'ar', 'vr', 'offered', 'by', 'school', 'of', 'aide', 'convenor', 'dr']
+['amit', 'bhardwaj', 'dr']
+['rajendra', 'nagar', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+
+--- Website 51 ---
+
+Sample tokenized sentences:
+['btech', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'btech', 'btech', 'programs', 'the', 'minor', 'programs', 'in', 'ai', 'and', 'ds', 'at', 'aide', 'are', 'designed', 'to', 'provide', 'btech', 'students', 'with', 'foundational', 'understanding', 'of', 'key', 'concepts', 'techniques', 'and', 'applications', 'in', 'ai', 'and', 'ds']
+['these', 'programs', 'offer', 'blend', 'of', 'theoretical', 'knowledge', 'practical', 'skills', 'and', 'hands-on', 'experience', 'through', 'combination', 'of', 'coursework', 'projects', 'and', 'experiential', 'learning', 'opportunities']
+['the', 'btech', 'program', 'at', 'present', 'is', 'designed', 'to', 'offer', 'minor', 'degrees', 'in', 'the', 'following', 'areas', 'btech', 'minor', 'in', 'science', 'of', 'intelligence', 'offered', 'by', 'center', 'for', 'brain', 'science', 'and', 'applications', 'convenor', 'dr']
+['suman', 'dhaka', 'btech', 'minor', 'in', 'mathematical', 'computational', 'economics', 'offered', 'by', 'center', 'for', 'mathematical', 'and', 'computational', 'economics', 'saide', 'convenor', 'dr']
+['srivatsa', 'srinivas', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+
+--- Website 52 ---
+
+Sample tokenized sentences:
+['executive', 'programs', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'executive', 'programs', 'executive', 'programs', 'the', 'school', 'runs', 'degree', 'diploma', 'and', 'certificate', 'programmes', 'in', 'online', 'and', 'or', 'part-time', 'mode', 'for', 'interested', 'learners', 'having', 'different', 'career', 'paths', 'and', 'different', 'levels', 'of', 'preparation']
+['this', 'will', 'include', 'specialised', 'programmmes', 'meeting', 'need', 'of', 'working', 'professionals', 'in', 'the', 'field', 'of', 'ai', 'ds', 'awareness', 'programmes', 'for', 'senior', 'executives', 'cross-disciplinary', 'programmes', 'for', 'in', 'depth', 'training', 'of', 'professionals', 'from', 'other', 'disciplines', 'programmes', 'for', 'add-on', 'diploma', 'certificates', 'for', 'students', 'pursuing', 'academic', 'programmes', 'in', 'other', 'disciplines']
+['in', 'other', 'words', 'the', 'school', 'will', 'play', 'key', 'role', 'in', 'extending', 'the', 'reach', 'of', 'the', 'ai', 'and', 'ds', 'knowledge', 'in', 'the', 'country']
+['the', 'following', 'executive', 'programs', 'are', 'currently', 'offered', 'by', 'the', 'school', 'mtech', 'executive', 'in', 'ar', 'vr', 'offered', 'by', 'school', 'of', 'aide', 'coordinator', 'dr']
+['amit', 'bhardwaj', 'dr']
+
+--- Website 53 ---
+
+Sample tokenized sentences:
+['courses', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'courses', 'list', 'of', 'open', 'electives', 'course', 'name', 'l-t-p', 'structure', 'course', 'level', 'basic', 'neuroscience', '01']
+['sensation', 'and', 'perception', '02']
+['principles', 'of', 'neural', 'design', '3-0-0', '3-0-0', '700', '400', 'cognitive', 'science', '03']
+['introduction', 'to', 'cognitive', 'science', '04']
+['cognitive', 'semantics', '05']
+
+--- Website 54 ---
+
+Sample tokenized sentences:
+['about', 'research', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['about', 'research', 'laboratory', 'image', 'of', 'research', 'activity', 'research', 'at', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'the', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'focuses', 'on', 'three', 'key', 'research', 'areas']
+['foundational', 'research', 'aims', 'to', 'advance', 'core', 'ai', 'and', 'data', 'science', 'technologies', 'through', 'interdisciplinary', 'collaboration', 'and', 'publications']
+['application-directed', 'research', 'integrates', 'ai', 'into', 'sectors', 'like', 'basic', 'sciences', 'biological', 'sciences', 'environmental', 'sciences', 'to', 'tackle', 'specific', 'challenges']
+['locally', 'relevant', 'research', 'applies', 'ai', 'and', 'data', 'science', 'to', 'uplift', 'communities', 'in', 'rajasthan', 'by', 'enhancing', 'agriculture', 'exploiting', 'solar', 'energy', 'and', 'preserving', 'local', 'art', 'and', 'culture']
+
+--- Website 55 ---
+
+Sample tokenized sentences:
+['themes', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'themes', 'ai', 'and', 'economics', 'ai-driven', 'healthcare', 'ai', 'for', 'technology', 'language', 'and', 'vision', 'behavior', 'cognition', 'and', 'brain', 'theoretical', 'ai', 'ai', 'and', 'ethics', 'social', 'engineering', 'robotics', 'and', 'intelligent', 'machines', 'smart', 'cities', 'infrastructure', 'and', 'environment', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '28', 'jan', '2026', '08', '18', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 56 ---
+
+Sample tokenized sentences:
+['projects', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'projects', 'sponsored', 'by', 'tih', 'ihub', 'drishti', 'iit', 'jodhpur', 'computer', 'vision', 'for', 'plant', 'phenomics', 'and', 'smart', 'agriculture', 'pi', 'rabi']
+['sahoo', 'iari', 'bikash', 'santra', 'start-end', 'date', '29', '2022', '28', '2025', 'amount', '57']
+['77', 'lakh', 'status', 'ongoing', 'description', 'computer', 'vision', 'for', 'plant', 'phenomics', 'and', 'smart', 'agriculture', 'website', 'document', 'join', 'us', 'sponsored', 'by', 'iit', 'jodhpur', 'investigating', 'inhibitory', 'control', 'of', 'actions', 'using', 'tms-eeg', 'potential', 'clinical', 'tool', 'to', 'identify', 'neural', 'markers', 'of', 'cognitive', 'deficits', 'in', 'impulse', 'control', 'disorders', 'pi', 'vignesh', 'muralidharan', 'start-end', 'date', '08', '02', '2024', '08', '01', '2025', 'amount', '25', 'lakh', 'status', 'completed', 'description', 'research', 'initiation', 'grant', 'to', 'setup', 'tms-eeg', 'modality', 'to', 'investigate', 'inhibitory', 'control', 'of', 'actions', 'in', 'humans']
+['inhibitory', 'control', 'is', 'cognitive', 'function', 'that', 'helps', 'us', 'override', 'unwanted', 'actions', 'thoughts', 'and', 'emotions']
+['tms-eeg', 'will', 'provide', 'new', 'window', 'into', 'the', 'brain', 'processes', 'involved', 'in', 'such', 'form', 'of', 'control', 'through', 'simultaneous', 'stimulation', 'and', 'brain', 'activity', 'measurements']
+
+--- Website 57 ---
+
+Sample tokenized sentences:
+['publications', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'publications', 'research', 'publications', 'university', 'library', 'of', 'munich', 'implications', 'of', 'banking', 'regulations', 'on', 'online', 'payment', 'failures', 'authors', 'aditi', 'chawla', 'ganesh', 'manjhi', 'gaurav', 'bhattacharya', 'date', '09-09-2021', 'mechatronics', 'twisted', 'string', 'actuation', 'through', 'conduit', 'undesirable', 'behaviors', 'and', 'pre-twist', 'effects', 'authors']
+['ryu', 'date', '30', '2023', 'the', 'journal', 'of', 'behavioral', 'science', 'beyond', 'exchange', 'relationship', 'exploring', 'the', 'link', 'between', 'organizational', 'justice', 'job', 'involvement', 'and', 'citizenship', 'behavior', 'authors', 'abhishek', 'sharma', 'and']
+['sharma', 'date', '30', '2021', 'royal', 'college', 'of', 'surgeons', 'in', 'ireland', 'fetal', 'gene', 'variants', 'associated', 'with', 'birth', 'weight', 'protection', 'in', 'native', 'high', 'altitude', 'ladakhi', 'population', 'authors', 'sushil', 'bhandari', 'padma', 'dolma', 'mitali', 'mukerji', 'bhavana', 'prasher', 'hugh', 'montgomery', 'dalvir', 'kular', 'vandana', 'jain', 'vatsla', 'dadhwal', 'david', 'williams', 'aniket', 'bhattacharyaa', 'edmund', 'gilbert', 'gianpiero', 'cavalleri', 'sara', 'hillman', 'date', '29', '2024', 'biomedical', 'signal', 'processing', 'and', 'control', 'automated', 'detection', 'of', 'hypertensive', 'retinopathy', 'using', 'few-shot', 'learning', 'authors', 'suman', 'ak', 'tiwari', 'ingale', 'singh', 'date', '22', '2023', 'current', 'psychiatry', 'research', 'and', 'reviews', 'association', 'between', 'covid-19', 'pandemic', 'and', 'serious', 'mental', 'illness', 'systematic', 'review', 'within', 'salutogenesis', 'model', 'for', 'public', 'health', 'management']
+['date', '19', '2022', 'international', 'journal', 'of', 'online', 'biomedical', 'engineering', 'neurofeedback', 'training', 'for', 'social', 'cognitive', 'deficits', 'systematic', 'review', 'authors']
+['sharma', 'date', '18', '2020', 'applied', 'economics', 'letters', 'infant', 'malnutrition', 'clean-water', 'access', 'and', 'government', 'interventions', 'in', 'india', 'machine', 'learning', 'approach', 'towards', 'causal', 'inference', 'authors', 'dweepobotee', 'brahma', 'debasri', 'mukherjee', 'date', '17', '2020', 'isid', 'optimal', 'stopping', 'in', 'list-based', 'decisions', 'authors', 'saptarshi', 'mukherjee', 'ruhi', 'sonal', 'abhinaba', 'lahiri', 'date', '16', '2022', 'cogent', 'psychology', 'can', 'wisdom', 'be', 'fostered', 'time', 'to', 'test', 'the', 'model', 'of', 'wisdom', 'authors']
+
+--- Website 58 ---
+
+Sample tokenized sentences:
+['facilities', 'labs', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'facilities', 'labs', 'our', 'labs', 'iit', 'jodhpur', 'has', 'established', 'good', 'number', 'of', 'teaching', 'and', 'research', 'laboratories', 'and', 'facilities', 'which', 'aid', 'in', 'elevating', 'the', 'students', 'from', 'minimalist', 'academic', 'concerns', 'to', 'inquisitive', 'world', 'of', 'scientific', 'arena']
+['these', 'teaching', 'and', 'research', 'laboratories', 'help', 'faculty', 'members', 'and', 'students', 'work', 'for', 'better', 'future', 'by', 'supplementing', 'and', 'improving', 'existing', 'technologies', 'and', 'bodies', 'of', 'knowledge', 'using', 'competence', 'creativity', 'and', 'imagination']
+['cognitive', 'engineering', 'lab', 'deep', 'learning', 'and', 'computer', 'vision', 'lab', 'natural', 'language', 'processing', 'lab', 'neuro', 'robotics', 'lab', 'computational', 'economics', 'lab', 'computational', 'intelligence', 'lab', 'network', 'cognitive', 'neuroscience', 'lab', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '28', 'jan', '2026', '08', '18', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 59 ---
+
+Sample tokenized sentences:
+['about', 'coes', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'about', 'coes', 'what', 'are', 'centres', 'of', 'excellence', 'centres', 'of', 'excellence', 'at', 'saide', 'are', 'dedicated', 'hubs', 'of', 'transdisciplinary', 'collaboration', 'focusing', 'on', 'specific', 'areas', 'of', 'research', 'and', 'education']
+['these', 'centres', 'provide', 'unique', 'and', 'distinguished', 'capability', 'to', 'conduct', 'high-quality', 'fundamental', 'and', 'translational', 'research', 'addressing', 'pressing', 'challenges', 'and', 'opportunities', 'in', 'today', 'world']
+['elaborating', 'on', 'our', 'centres', 'of', 'excellence', 'brain', 'science', 'and', 'applications', 'this', 'coe', 'is', 'at', 'the', 'forefront', 'of', 'exploring', 'the', 'science', 'of', 'intelligence', 'brain-machine', 'interface', 'assistive', 'technologies', 'and', 'the', 'application', 'of', 'ai', 'and', 'data', 'science', 'in', 'understanding', 'brain', 'diseases', 'and', 'injuries']
+['through', 'interdisciplinary', 'research', 'and', 'cutting-edge', 'technologies', 'we', 'aim', 'to', 'unlock', 'new', 'insights', 'into', 'the', 'complexities', 'of', 'the', 'human', 'brain']
+['mathematical', 'and', 'computational', 'economics', 'our', 'coe', 'in', 'mathematical', 'and', 'computational', 'economics', 'focuses', 'on', 'interdisciplinary', 'research', 'at', 'the', 'intersection', 'of', 'economics', 'mathematics', 'data', 'science', 'and', 'machine', 'learning']
+
+--- Website 60 ---
+
+Sample tokenized sentences:
+['school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'welcome', 'to', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'saide', 'news', 'view', 'all', 'news']
+['vishal', 'rathi', 'received', 'best', 'paper', 'award', 'at', 'air2025', 'prime', 'minister', 'early', 'career', 'research', 'grant', 'pm', 'ecrg', 'from', 'the', 'anusandhan', 'national']
+['list', 'of', 'provisionally', 'selected', 'candidates', 'for', 'phd', 'admission', 'for', 'academic', 'year', '2024-25']
+['events', 'view', 'all', 'events', 'feb', '2026', 'hands-on', 'workshop', 'on', 'recent', 'trends', 'in', 'generative', 'ai', 'models', 'and', 'their', 'applications', 'nov', '25', '2024', 'incomplete', 'information', 'and', 'matching', 'of', 'likes', 'mechanism', 'design', 'approach', 'nov', '16', '2024', 'sun', 'pharma', 'science', 'foundation', 'national', 'symposium', 'on', 'artificial', 'intelligence', 'in']
+['key', 'functionaries', 'anil', 'kumar', 'tiwari', 'head', 'saide', 'professor', 'electrical', 'engineering', 'student', 'life', 'at', 'saide', 'student', 'life', 'at', 'saide', 'is', 'vibrant', 'and', 'enriching', 'offering', 'perfect', 'blend', 'of', 'academic', 'learning', 'and', 'extracurricular', 'activities']
+
+--- Website 61 ---
+
+Sample tokenized sentences:
+['ayurtech', 'welcome', 'to', 'centre', 'of', 'excellence', 'in', 'ayurtech', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'news', 'updates', 'ayurtech', 'bridging', 'systems', 'for', 'integrative', 'medicine', 'ayurtech', 'ncism', 'workshop', 'about', 'ayurtech', 'the', 'ayurtech', 'project', 'hosted', 'at', 'iit', 'jodhpur', 'and', 'funded', 'by', 'the', 'ministry', 'of', 'ayush', 'is', 'cutting-edge', 'research', 'initiative', 'aimed', 'at', 'combining', 'traditional', 'ayurvedic', 'principles', 'with', 'modern', 'technology']
+['the', 'project', 'goal', 'is', 'to', 'develop', 'an', 'advanced', 'method', 'for', 'identifying', 'an', 'individual', 'prakriti', 'natural', 'constitution', 'and', 'vikriti', 'current', 'state', 'of', 'imbalance', 'using', 'innovative', 'tools', 'and', 'techniques']
+['what', 'is', 'prakriti', 'and', 'vikriti', 'in', 'ayurveda', 'prakriti', 'refers', 'to', 'person', 'inherent', 'body', 'constitution', 'which', 'remains', 'constant', 'throughout', 'life']
+['it', 'like', 'your', 'natural', 'body', 'type', 'or', 'personality', 'determined', 'by', 'the', 'balance', 'of', 'three', 'vital', 'energies', 'or', 'doshas', 'vata', 'pitta', 'and', 'kapha']
+['vikriti', 'on', 'the', 'other', 'hand', 'is', 'your', 'current', 'state', 'of', 'health', 'which', 'can', 'change', 'over', 'time', 'due', 'to', 'lifestyle', 'diet', 'environment', 'and', 'other', 'factors']
+
+--- Website 62 ---
+
+Sample tokenized sentences:
+['people', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'people', 'head', 'core', 'faculty', 'members', 'affiliated', 'faculty', 'members', 'adjunct', 'faculty', 'members', 'staff', 'member', 'outsourced', 'staff', 'members', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '25', 'mar', '2026', '07', '22', 'pm', 'arrow', 'downward']
+
+--- Website 63 ---
+
+Sample tokenized sentences:
+['students', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'students', 'phd', 'students', 'ms', 'students', 'mtech', 'students', 'phd', 'students', 'name', 'email', 'research', 'area', 'abinaya', 'vairam', 'p22ai001', 'iitj']
+['in', 'computational', 'neuroscience', 'neurogenetics', 'ankita', 'sarkar', 'p24ai0001', 'iitj']
+['in', 'medical', 'image', 'processing', 'deep', 'learning', 'machine', 'learning', 'arpit', 'shrimankar', 'p23ai0004', 'iitj']
+['in', 'neuroscience', 'of', 'action', 'control', 'computational', 'neuroscience', 'debottam', 'bhunia', 'p22ai203', 'iitj']
+['in', 'developing', 'large-scale', 'computational', 'models', 'of', 'multisensory', 'perception', 'gargi', 'bhattacharjee', 'p22ai002', 'iitj']
+
+--- Website 64 ---
+
+Sample tokenized sentences:
+['alumni', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'alumni', 'coming', 'soon']
+['important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '28', 'jan', '2026', '08', '18', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+--- Website 65 ---
+
+Sample tokenized sentences:
+['directory', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'directory']
+['name', 'email', 'office', 'number', 'abhinaba', 'lahiri', 'abhinaba', 'iitj']
+['in', '0291', '280', '1756', 'anil', 'kumar', 'tiwari', 'akt', 'iitj']
+['in', '0291', '280', '1353', 'asif', 'ekbal', 'asif', 'iitj']
+['in', '0291', '280', '1765', 'bhivraj', 'suthar', 'bhivraj', 'iitj']
+
+--- Website 66 ---
+
+Sample tokenized sentences:
+['project', 'positions', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'project', 'positions', 'project', 'positions', 'at', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', 'invites', 'applications', 'for', 'project-linked', 'research', 'to', 'various', 'funded', 'projects', 'in', 'specific', 'disciplines', 'and', 'interdisciplinary', 'areas']
+['title', 'slot', 'machines', 'in', 'our', 'pockets', 'elucidating', 'the', 'neural', 'effects', 'of', 'smartphone', 'overuse', 'on', 'reward', 'anticipation', 'and', 'reward', 'processing', 'description', 'smartphone', 'app', 'development', 'for', 'tracking', 'user', 'interactions', 'and', 'physiological', 'data']
+['background', 'computational', 'electronics', 'aiml', 'software', 'start', 'date', '01', 'feb', '2025', 'end', 'date', 'na', 'position', 'type', 'post', 'doc', 'link', 'https', 'csndl-iitd']
+['io', 'cndl-website', 'join', 'title', 'development', 'of', 'an', 'oscillator', 'network', 'model', 'of', 'the', 'brain', 'that', 'will', 'enable', 'hypothesis-driven', 'perturbation-response', 'experiments', 'for', 'early', 'detection', 'of', 'neurodegenerative', 'disorders', 'description', 'the', 'student', 'will', 'use', 'an', 'existing', 'whole-brain', 'network', 'model', 'of', 'mouse', 'brain', 'and', 'study', 'how', 'alterations', 'in', 'its', 'connectivity', 'parameters', 'changes', 'the', 'likelihood', 'of', 'epileptic', 'seizures']
+['background', 'quantitative', 'computational', 'physics', 'start', 'date', '01', 'aug', '2024', 'end', 'date', '15', 'nov', '2024', 'position', 'type', 'design', 'credits', 'link', 'https', 'csndl-iitd']
+
+--- Website 67 ---
+
+Sample tokenized sentences:
+['postdoc', 'positions', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'postdoc', 'positions', 'postdoc', 'positions', 'at', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', 'invites', 'applications', 'for', 'postdoc', 'positions', 'in', 'specific', 'disciplines', 'and', 'interdisciplinary', 'areas']
+['title', 'slot', 'machines', 'in', 'our', 'pockets', 'elucidating', 'the', 'neural', 'effects', 'of', 'smartphone', 'overuse', 'on', 'reward', 'anticipation', 'and', 'reward', 'processing', 'description', 'smartphone', 'app', 'development', 'for', 'tracking', 'user', 'interactions', 'and', 'physiological', 'data']
+['background', 'computational', 'electronics', 'aiml', 'software', 'start', 'date', '01', 'feb', '2025', 'end', 'date', 'na', 'position', 'type', 'post', 'doc', 'link', 'https', 'csndl-iitd']
+['io', 'cndl-website', 'join', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+
+--- Website 68 ---
+
+Sample tokenized sentences:
+['internship', 'programs', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'internship', 'programs', 'internship', 'programs', 'the', 'internship', 'program', 'in', 'ai', 'and', 'ds', 'at', 'aide', 'is', 'designed', 'to', 'bridge', 'the', 'gap', 'between', 'academic', 'learning', 'and', 'industry', 'requirements', 'by', 'providing', 'students', 'with', 'practical', 'experience', 'in', 'applying', 'ai', 'and', 'ds', 'concepts', 'to', 'real-world', 'problems']
+['interns', 'have', 'the', 'opportunity', 'to', 'work', 'on', 'industry-sponsored', 'projects', 'research', 'initiatives', 'and', 'collaborations', 'with', 'faculty', 'members', 'and', 'industry', 'partners']
+['important', 'links', 'summer', 'internship', 'program', '2025', 'summer', 'internship', 'program', '2025', 'apply', 'here', 'key', 'features', 'industry', 'projects', 'interns', 'work', 'on', 'industry-sponsored', 'projects', 'under', 'the', 'guidance', 'of', 'experienced', 'mentors', 'and', 'industry', 'professionals']
+['these', 'projects', 'cover', 'wide', 'range', 'of', 'ai', 'and', 'ds', 'applications', 'including', 'machine', 'learning', 'deep', 'learning', 'natural', 'language', 'processing', 'computer', 'vision', 'big', 'data', 'analytics', 'and', 'more']
+['hands-on', 'experience', 'the', 'program', 'emphasizes', 'hands-on', 'learning', 'allowing', 'interns', 'to', 'apply', 'theoretical', 'concepts', 'and', 'methodologies', 'to', 'practical', 'projects']
+
+--- Website 69 ---
+
+Sample tokenized sentences:
+['faculty', 'positions', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741']
+['faculty', 'positions', 'rolling', 'advertisement', 'for', 'faculty', 'recruitment', 'iit', 'jodhpur', 'invites', 'online', 'applications', 'from', 'persons', 'with', 'exceptional', 'academic', 'record', 'and', 'or', 'valuable', 'research', 'and', 'industrial', 'experience', 'at', 'the', 'levels', 'of', 'professor', 'associate', 'professor', 'assistant', 'professor', 'professor', 'of', 'practice', 'and', 'young', 'faculty', 'associates', 'working', 'in', 'all', 'areas', 'of', 'ai', 'and', 'ai', 'applications', 'who', 'can', 'contribute', 'towards', 'achieving', 'goals', 'of', 'the', 'school']
+['important', 'links', 'rolling', 'advertisement', 'for', 'faculty', 'hiring', 'eligibility', 'requirements', 'assistant', 'professor', 'grade', 'ii', 'phd']
+['with', 'first', 'division', 'in', 'the', 'preceding', 'degree', 'or', 'equivalent', 'in', 'the', 'appropriate', 'discipline', 'with', 'good', 'academic', 'record', 'throughout']
+['applicants', 'having', 'no', 'or', 'less', 'than', 'years', 'post-phd']
+
+--- Website 70 ---
+
+Sample tokenized sentences:
+['contact', 'school', 'of', 'artificial', 'intelligence', 'data', 'science', 'iit', 'jodhpur', '147852369', 'redirecttologinpage', '963258741', 'contact', 'office', 'of', 'school', 'of', 'artificial', 'intelligence', 'and', 'data', 'science', 'saide', 'indian', 'institute', 'of', 'technology', 'jodhpur', 'nh', '62', 'nagaur', 'road', 'karwar', '342030', 'jodhpur', 'district', 'email', 'office', 'saide', 'at', 'iitj', 'dot', 'ac', 'dot', 'in', 'phone', '0291', '280', '1752', 'important', 'links', 'cccd', 'iitj', 'recruitment', 'correspondence', 'rti', 'tenders', 'techscape', 'contact', 'old', 'website', 'nccr', 'portal', 'how', 'to', 'reach', 'iitj', 'institute', 'repository', 'donations', 'web', 'policy', 'web', 'information', 'manager', 'feedback', 'cert-in', 'help', 'nirf', 'internal', 'committee', 'intranet', 'links', 'copyright', '2025', 'all', 'rights', 'reserved', 'this', 'portal', 'is', 'owned', 'designed', 'and', 'developed', 'by', 'digital', 'infrastructure', 'automation', 'iit', 'jodhpur']
+['62', 'nagaur', 'road', 'karwar', 'jodhpur', '342030', 'rajasthan', 'india', 'for', 'any', 'comments', 'enquiries', 'feedback', 'please', 'email', 'the', 'wim']
+['last', 'updated', '28', 'jan', '2026', '08', '18', 'pm', '147852369', 'redirecttologinpage', '963258741', 'arrow', 'downward']
+
+=========== FINAL DATASET STATS ===========
+Total Sentences: 1921
+Total Tokens: 57639
+Vocabulary Size: 3292
+
+=========== TOP 10 MOST FREQUENT WORDS ===========
+department: 2422
+engineering: 610
+jodhpur: 598
+research: 412
+office: 396
+school: 375
+technology: 361
+institute: 359
+iitj: 356
+science: 354

@@ -1,0 +1,58 @@
+Enter the path to your corpus file: TrainingNames.txt
+
+=====================================
+--- Training VanillaRnn ---
+Total Parameters: 25,280
+Model Size: 0.0964 MB
+Epoch [5/50], Loss: 2.1075
+Epoch [10/50], Loss: 1.8306
+Epoch [15/50], Loss: 1.6700
+Epoch [20/50], Loss: 1.5456
+Epoch [25/50], Loss: 1.4469
+Epoch [30/50], Loss: 1.3446
+Epoch [35/50], Loss: 1.2659
+Epoch [40/50], Loss: 1.1976
+Epoch [45/50], Loss: 1.1328
+Epoch [50/50], Loss: 1.0669
+
+--- Metrics for VanillaRnn ---
+Novelty Rate: 99.00%
+Diversity:    100.00%
+
+=====================================
+--- Training BlstmModel ---
+Total Parameters: 173,534
+Model Size: 0.6620 MB
+Epoch [5/50], Loss: 0.2402
+Epoch [10/50], Loss: 0.0358
+Epoch [15/50], Loss: 0.0133
+Epoch [20/50], Loss: 0.0071
+Epoch [25/50], Loss: 0.0046
+Epoch [30/50], Loss: 0.0033
+Epoch [35/50], Loss: 0.0025
+Epoch [40/50], Loss: 0.0020
+Epoch [45/50], Loss: 0.0016
+Epoch [50/50], Loss: 0.0014
+
+--- Metrics for BlstmModel ---
+Novelty Rate: 100.00%
+Diversity:    100.00%
+
+=====================================
+--- Training RnnCausalAttention ---
+Total Parameters: 62,046
+Model Size: 0.2367 MB
+Epoch [5/50], Loss: 2.0013
+Epoch [10/50], Loss: 1.6998
+Epoch [15/50], Loss: 1.5065
+Epoch [20/50], Loss: 1.3588
+Epoch [25/50], Loss: 1.2373
+Epoch [30/50], Loss: 1.1331
+Epoch [35/50], Loss: 1.0444
+Epoch [40/50], Loss: 0.9765
+Epoch [45/50], Loss: 0.9081
+Epoch [50/50], Loss: 0.8495
+
+--- Metrics for RnnCausalAttention ---
+Novelty Rate: 96.00%
+Diversity:    100.00%

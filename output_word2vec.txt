@@ -1,0 +1,173 @@
+Enter the path to your corpus file: corpus.txt
+
+════════════════════════════════════════════════════════════
+HYPERPARAMETER EXPERIMENT
+════════════════════════════════════════════════════════════
+  dim=50 win=3 neg=3 -> CBOW: 0.7884 | SG: 0.6253
+  dim=100 win=5 neg=5 -> CBOW: 0.7101 | SG: 0.5755
+  dim=200 win=7 neg=10 -> CBOW: 0.6761 | SG: 0.5379
+
+════════════════════════════════════════════════════════════
+TRAINING SCRATCH MODELS
+════════════════════════════════════════════════════════════
+  [Skip-gram Scratch] Epoch 1/5 loss=2.6172 time=29.4s
+  [Skip-gram Scratch] Epoch 2/5 loss=2.0102 time=29.3s
+  [Skip-gram Scratch] Epoch 3/5 loss=1.8714 time=32.0s
+  [Skip-gram Scratch] Epoch 4/5 loss=1.7725 time=39.1s
+  [Skip-gram Scratch] Epoch 5/5 loss=1.6974 time=29.5s
+  [CBOW Scratch] Epoch 1/5 loss=3.7210 time=8.5s
+  [CBOW Scratch] Epoch 2/5 loss=2.8340 time=7.4s
+  [CBOW Scratch] Epoch 3/5 loss=2.5111 time=8.6s
+  [CBOW Scratch] Epoch 4/5 loss=2.2561 time=8.7s
+  [CBOW Scratch] Epoch 5/5 loss=2.0861 time=7.4s
+
+  Training Gensim Models...
+
+════════════════════════════════════════════════════════════
+TRAINING 300-DIM GENSIM CBOW
+════════════════════════════════════════════════════════════
+  Model trained successfully.
+
+  [CBOW 300-Dim] Top 5 Neighbours for 'artificial':
+    intelligence         0.9682
+    data                 0.9492
+    intersection         0.8559
+    things               0.8529
+    science              0.8482
+
+  [CBOW 300-Dim] Full Embedding Vector for 'artificial':
+[ 2.85647541e-01, -3.05117458e-01,  3.31484169e-01,  2.31029853e-01,
+ -5.12472272e-01,  2.11392567e-01,  1.07420814e+00,  6.27472520e-01,
+ -5.09226143e-01, -1.33760846e+00, -5.69431223e-02,  3.23304862e-01,
+ -8.20175231e-01,  5.85245371e-01, -1.43736318e-01,  3.62422727e-02,
+ -1.99034348e-01, -5.13907015e-01, -1.03433335e+00, -1.01339221e+00,
+ -2.47111358e-03, -4.84209299e-01, -8.26059505e-02, -2.59827763e-01,
+  3.04099917e-01, -4.82514918e-01, -4.51273978e-01, -3.14075083e-01,
+  3.65934402e-01, -1.68318495e-01,  1.05455257e-01, -4.72294837e-01,
+  1.28104342e-02, -1.70040786e-01, -1.08074701e+00,  8.93015683e-01,
+  7.25972235e-01, -1.08272994e+00, -2.82168776e-01, -2.56562948e-01,
+ -2.81382382e-01, -4.40268487e-01,  4.22916114e-01, -1.73854321e-01,
+  7.67732024e-01,  5.95267236e-01, -1.14979692e-01, -1.70849711e-01,
+ -1.87163085e-01,  8.61884236e-01,  7.44491518e-01,  1.21128941e+00,
+  4.04194236e-01,  1.12963133e-01,  5.79699092e-02,  1.03129303e+00,
+ -2.23724663e-01,  4.55260783e-01,  7.33841024e-03, -5.30597642e-02,
+ -8.61155450e-01,  9.91244335e-03,  2.23021016e-01,  6.88746095e-01,
+ -5.18650591e-01,  3.89782786e-01,  3.83024067e-01,  1.44532055e-01,
+  8.85474205e-01, -9.14368778e-03, -6.76165223e-01, -7.83015549e-01,
+ -2.87507206e-01, -1.26405746e-01, -4.92670834e-01, -8.13610077e-01,
+ -1.15406692e+00,  2.46406540e-01, -2.09711805e-01,  6.43483996e-01,
+  1.76859006e-01, -2.32784554e-01,  4.39439923e-01,  8.58412743e-01,
+  1.81566611e-01,  9.94693398e-01,  7.40895748e-01,  2.28359908e-01,
+  3.88917863e-01, -9.33663398e-02, -5.38583636e-01,  3.38430583e-01,
+  6.68202862e-02, -3.97780746e-01,  5.93056381e-01,  6.50383592e-01,
+  2.95417279e-01, -3.58748466e-01, -9.81517583e-02,  1.10324718e-01,
+  2.83380032e-01, -6.78538561e-01, -2.92499274e-01,  6.38125986e-02,
+  7.83430278e-01,  1.31277964e-01,  1.15521617e-01,  5.34580871e-02,
+ -3.67130607e-01,  9.36168611e-01, -1.23041704e-01,  7.50413775e-01,
+ -1.51997834e-01,  9.02616858e-01, -6.84549749e-01, -1.24120273e-01,
+  1.46933377e-01,  6.39019608e-01,  3.09005409e-01,  8.16818252e-02,
+  4.31186467e-01,  4.02921557e-01,  7.76425353e-04, -2.57532805e-01,
+ -1.70367092e-01, -2.89855450e-01,  6.89038277e-01,  4.09201652e-01,
+ -6.30140156e-02, -8.08432400e-02,  3.81130517e-01,  2.82595992e-01,
+  4.50620949e-01, -3.26483846e-01, -2.17511222e-01,  5.04519105e-01,
+ -9.38327968e-01,  6.21362686e-01, -1.95371568e-01,  3.82742554e-01,
+ -6.42751753e-02, -6.69095516e-02, -2.10979525e-02, -4.89554554e-02,
+  3.46356183e-01,  4.71972287e-01, -9.57094729e-02, -5.07662177e-01,
+ -4.75449651e-01,  1.76068455e-01,  2.17459545e-01, -7.66241610e-01,
+ -7.96842635e-01, -1.41121298e-01,  1.26413539e-01,  5.12754023e-01,
+ -2.80702919e-01,  6.19878948e-01, -3.83046120e-01,  3.93045127e-01,
+  7.89698482e-01, -7.15582013e-01,  2.54843295e-01,  3.54512513e-01,
+ -8.17101657e-01, -2.66938061e-01, -1.27768502e-01,  1.53141618e-01,
+ -1.33425653e-01,  7.92706758e-02,  3.10886800e-01, -4.59480107e-01,
+ -7.61094764e-02,  1.81137249e-01,  8.88511896e-01, -6.21872187e-01,
+  3.02173227e-01, -8.74352634e-01, -4.93659228e-01,  8.06831062e-01,
+  3.73597831e-01,  7.33043730e-01, -1.54038861e-01, -9.99681115e-01,
+ -5.02649784e-01, -7.09318399e-01,  2.50884026e-01, -7.42519796e-02,
+  2.68271774e-01, -2.04005271e-01,  2.03776672e-01,  3.39907169e-01,
+  2.30059221e-01, -7.38603696e-02,  1.72248349e-01, -5.50971813e-02,
+  7.27376044e-01, -1.41096801e-01, -3.77222508e-01,  5.16413510e-01,
+ -4.47236031e-01, -6.46296501e-01,  3.46602388e-02,  7.69394815e-01,
+ -7.29954600e-01, -1.80591986e-01, -2.62110889e-01,  1.05143416e+00,
+  1.91718012e-01, -4.46067423e-01, -4.73544121e-01, -5.47512352e-01,
+ -1.85583249e-01,  3.07190388e-01, -2.70134091e-01, -8.63915741e-01,
+ -6.66373610e-01, -8.09723973e-01, -1.01413989e+00,  7.76396692e-01,
+  7.10926354e-02,  2.35158741e-01, -5.88856220e-01, -9.40368295e-01,
+ -5.78839302e-01,  3.83582056e-01,  2.94891804e-01, -8.78540695e-01,
+ -5.80676794e-01, -1.81706205e-01, -1.17081746e-01, -9.63684246e-02,
+  6.60979152e-01,  1.31121969e+00,  1.27628818e-01, -9.17988271e-02,
+  1.02446270e+00,  4.41246688e-01,  5.83719909e-01, -8.57738853e-01,
+  8.15085828e-01,  5.57766140e-01, -4.74732965e-01,  3.64450276e-01,
+  1.07805483e-01, -5.40208928e-02,  2.47489884e-01,  9.28983465e-02,
+ -4.35224563e-01, -2.90787697e-01, -3.93103898e-01, -3.11969846e-01,
+ -1.64280877e-01, -9.16151464e-01, -9.26961377e-02,  1.78245604e-01,
+  3.52282143e+00,  6.49948180e-01, -3.17617273e+00,  7.16071665e-01,
+ -1.66488156e-01, -6.44535482e-01,  2.12552238e+00, -1.24795175e+00,
+ -2.16181087e+00, -2.08859801e+00,  4.13409263e-01,  1.56930780e+00,
+ -2.01178861e+00, -1.76415610e+00, -9.00072381e-02, -1.26077875e-01,
+  1.65627027e+00,  2.36850366e-01,  1.46269298e+00,  5.24903953e-01,
+  2.20439410e+00, -4.28692997e-03, -2.77525926e+00, -5.44445179e-02,
+ -1.97916433e-01,  1.42065918e+00,  3.99538785e-01, -1.05750871e+00,
+ -8.63617539e-01, -1.49751520e+00,  1.42951086e-01,  1.25730589e-01,
+  6.92236602e-01, -5.22442877e-01, -4.99642760e-01,  1.11468136e+00,
+  1.14761126e+00,  6.99485183e-01,  3.49701196e-02,  2.12493520e-02,
+  3.46011311e-01,  5.59842885e-01,  9.81981099e-01, -3.25468272e-01]
+
+════════════════════════════════════════════════════════════
+NEIGHBOURS EXPERIMENTS
+════════════════════════════════════════════════════════════
+
+  [CBOW Scratch]
+    'research': ['central', 'facility', 'crf', 'teaching', 'area']
+    'student': ['from', 'are', 'with', 'through', 'which']
+    'artificial': ['intelligence', 'data', 'science', 'things', 'facilities']
+    'phd': ['mtech', 'students', 'program', 'sc', 'ug']
+    'examination': ['comprehensive', 'focus', 'fellowship', 'before', 'limit']
+    'exam': ['along', 'organized', 'laid', 'sequence', 'gap']
+
+  [SG Scratch]
+    'research': ['industrial', 'directed', 'cutting-edge', 'creating', 'photoluminescence']
+    'student': ['life', 'civil', 'ombudsperson', 'exchange', 'undergraduate']
+    'artificial': ['intelligence', 'internships', 'data', 'discontinued', 'ai-driven']
+    'phd': ['candidates', 'fulfilling', 'shortlisted', 'mtech', 'masters']
+    'examination': ['comprehensive', 'done', 'exam', 'receive', 'component']
+    'exam': ['tests', 'comprehensive', 'breadth', 'done', 'submitted']
+
+  [CBOW Gensim]
+    'research': ['crf', 'central', 'facility', 'highlights', 'microscopy']
+    'student': ['made', 'course', 'registered', 'supervisor', 'admitted']
+    'artificial': ['intelligence', 'data', 'science', 'ecosystem', 'mission']
+    'phd': ['mtech', 'msc', 'program', 'programs', '2026-27']
+    'examination': ['comprehensive', 'provided', 'same', 'during', 'following']
+    'exam': ['until', 'sota', 'instructor', 'identification', 'under']
+
+  [SG Gensim]
+    'research': ['xrd', 'powder', 'groups', 'hplc', 'photoluminescence']
+    'student': ['who', 'certificate', 'advise', 'awarded', 'considered']
+    'artificial': ['intelligence', 'ecosystem', 'ethics', 'ai-driven', 'internships']
+    'phd': ['offers', 'provisionally', 'mtech', '2026-27', 'shortlisted']
+    'examination': ['comprehensive', 'viva-voce', 'first', 'examiner', 'proposed']
+    'exam': ['consent', 'reject', 'defend', 'again', 'avenues']
+
+════════════════════════════════════════════════════════════
+ANALOGY EXPERIMENTS
+════════════════════════════════════════════════════════════
+
+  [CBOW Scratch]
+    ug:btech :: pg:? -> ['affairs', 'academics', 'management', 'entrepreneurship', 'faqs']
+    btech:course :: phd:? -> ['their', 'academic', 'requirements', 'students', 'an']
+    machine:learning :: artificial:? -> ['intelligence', 'data', 'science', 'school', 'saide']
+
+  [SG Scratch]
+    ug:btech :: pg:? -> ['diploma', 'programs', 'mtech', 'executive', 'engage']
+    btech:course :: phd:? -> ['fulfilling', '1st', 'declaration', 'submission', 'continuation']
+    machine:learning :: artificial:? -> ['intelligence', 'data', 'ecosystem', 'placements', 'outreach']
+
+  [CBOW Gensim]
+    ug:btech :: pg:? -> ['msc', 'diploma', 'admissions', 'lithography', '2026-27']
+    btech:course :: phd:? -> ['register', 'requirements', 'credits', 'calculation', 'minimum']
+    machine:learning :: artificial:? -> ['data', 'intelligence', 'science', 'mission', 'school']
+
+  [SG Gensim]
+    ug:btech :: pg:? -> ['diploma', 'mtech', 'executive', 'engage', 'msc']
+    btech:course :: phd:? -> ['candidacy', 'financial', 'during', 'independent', 'graduation']
+    machine:learning :: artificial:? -> ['invites', 'directory', 'intelligence', 'ecosystem', 'internships']
